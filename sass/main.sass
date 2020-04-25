@@ -32,9 +32,24 @@ body
   background-color: $header-bg
   padding-top: 80px
 
+.top-right
+  display: flex
+  img
+    height: 45px
+    margin: 0 20px
+
+  p
+    color: $text-white
+    font-weight: 700
+    font-size: 17px
+    letter-spacing: 2px
+    line-height: 25px
+  &-mail
+    color: $text-grey-nav
+    font-weight: 400
+
 .top-nav
   font-size: 14px
-  font-weight: 400
   position: relative
 
   &-logo
@@ -89,6 +104,7 @@ body
         font-size: 13px
         letter-spacing: 1px
         line-height: 25px
+        font-weight: 700
 
         &::after
           content: ''
@@ -152,6 +168,7 @@ body
     line-height: 58px
     margin-top: -20px
     margin-bottom: 0
+    font-weight: 800
 
     &_low
       color: $text-white
@@ -180,6 +197,7 @@ body
   letter-spacing: 2px
   line-height: 25px
   border: 3px solid $body-bg
+  font-weight: 700
 
 
   &:hover
@@ -199,6 +217,17 @@ body
 
 input
   outline: 0
+
+input[type="search"]::-moz-placeholder
+  color: $text-white
+input[type="search"]::-webkit-input-placeholder
+  color: $text-white
+input[type="search"]:-ms-input-placeholder
+  color: $text-white
+input[type="search"]::-ms-input-placeholder
+  color: $text-white
+input[type="search"]::placeholder
+  color: $text-white
 
 .aboutText
   width: 954px

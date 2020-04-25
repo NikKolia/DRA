@@ -69,9 +69,29 @@ body {
   padding-top: 80px;
 }
 
+.top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top-right img {
+  height: 45px;
+  margin: 0 20px;
+}
+.top-right p {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.top-right-mail {
+  color: #626262;
+  font-weight: 400;
+}
+
 .top-nav {
   font-size: 14px;
-  font-weight: 400;
   position: relative;
 }
 .top-nav-logo {
@@ -128,6 +148,7 @@ body {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 25px;
+  font-weight: 700;
 }
 .top-nav_menu li a::after {
   content: "";
@@ -202,6 +223,7 @@ body {
   line-height: 58px;
   margin-top: -20px;
   margin-bottom: 0;
+  font-weight: 800;
 }
 .welcome_label_low {
   color: #ffffff;
@@ -230,6 +252,7 @@ body {
   letter-spacing: 2px;
   line-height: 25px;
   border: 3px solid #ffffff;
+  font-weight: 700;
 }
 .button:hover {
   text-decoration: none;
@@ -250,6 +273,22 @@ body {
 
 input {
   outline: 0;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::placeholder {
+  color: #ffffff;
 }
 
 .aboutText {
