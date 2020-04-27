@@ -73,23 +73,15 @@ body
     a:hover
       cursor: pointer
 
-  &_menu
+  &_menu, &_menu_shell
     list-style: none
     display: flex
-    padding-left: 30px
+    padding-left: 15px
 
     li
-      margin-right: 55px
+      margin-right: 14px
       position: relative
-
-      &::after
-        position: absolute
-        content: ''
-        display: block
-        height: 20px
-        border-left: 2px solid $text-white
-        right: -26px
-        bottom: 15px
+      width: 105px
 
       p
         font-size: 13px
@@ -122,6 +114,17 @@ body
 
           &::after
             transform: translateY(25px) scale(1)
+
+.top-nav_menu_shell
+  li
+    &::after
+      position: absolute
+      content: ''
+      display: block
+      height: 20px
+      border-left: 2px solid $text-white
+      right: -8px
+      bottom: 15px
 
 .top-nav_menu_right
   display: flex
@@ -261,12 +264,13 @@ input[type="search"]::placeholder
         border-left: 1px solid $body-bg-nav
         border-top: 1px solid $body-bg-nav
         border-bottom: 1px solid $body-bg-nav
-        /* box-shadow: $shadow-first */
+      /* box-shadow: $shadow-first */
+
 
       &:nth-child(2)
         border-top: 1px solid $body-bg-nav
         border-bottom: 1px solid $body-bg-nav
-        /* box-shadow: $shadow-second */
+
         &::after
           position: relative
           content: ''
@@ -274,29 +278,25 @@ input[type="search"]::placeholder
           height: 116px
           border-left: 1px solid $dark-green
           border-right: 1px solid $dark-green
-          bottom: 170px
+          bottom: 155px
 
       &:last-child
         border-right: 1px solid $body-bg-nav
         border-top: 1px solid $body-bg-nav
         border-bottom: 1px solid $body-bg-nav
         border-radius: 0 25px 25px 0
-        /* box-shadow: $shadow-third */
 
       &:hover
         background-color: $body-bg-active
         @include border-radius(20px)
-        @include box-shadow (0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
+        @include box-shadow(0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
         height: 355px
         margin-top: 0
-        p
-          margin-top: -10px
-        img
-          margin-top: 74px
+
         a
           background-color: $body-menu
           color: $text-black
-          margin-top: 37px
+          margin-top: 218px
 
         &:nth-child(2)
           &::after
@@ -308,30 +308,123 @@ input[type="search"]::placeholder
         color: $text-white
         display: block
         padding: 5px 0
-        margin: 37px 70px 20px 70px
+        margin: 185px 70px 20px 70px
         text-decoration: none
         text-transform: uppercase
         font-size: 15px
         letter-spacing: 2px
         line-height: 25px
         font-weight: 700
+
         &:hover
           text-decoration: none
           color: lighten($text-black, 20%)
           border: 1px solid $button-color
+
+  &_menu_shell
+    pointer-events: none
+    display: flex
+    list-style: none
+    padding: 0
+    margin-top: -320px
+
+    li
+      background-color: transparent
+      height: 287px
+      width: 355px
+      transition: all 0.3s
+      margin-top: 34px
 
       p
         font-size: 13px
         letter-spacing: 1px
         line-height: 21px
         color: $text-grey-nav
-        margin-top: -15px
+        margin-top: 65px
 
+      img
+        height: 100px
+        margin-top: 10px
+
+.first-box, .second-box
+  margin-top: 60px
+
+  h2
+    font-size: 53px
+    font-weight: 700
+    letter-spacing: 3px
+    line-height: 58px
+    color: $text-black
+
+  &_about
+    font-size: 21px
+    letter-spacing: 2px
+    line-height: 29px
+    color: $text-grey-body
+    margin-top: 20px
+
+  &_items
+    display: flex
+    margin-top: 50px
+    p
+      font-size: 21px
+      font-weight: 700
+      letter-spacing: 1px
+      line-height: 23px
+      color: $text-black
+      margin-right: 200px
+      &:last-child
+        margin-right: 0
+
+  &_points
+    display: flex
+    margin-top: 10px
+    div
+      height: 34px
+      width: 34px
+      margin-right: 275px
+      background: radial-gradient(circle closest-side, $text-grey-body 8px, $body-bg 8px)
+      @include border-radius(25px)
+      border: 2px solid $text-grey-body
+      &:nth-child(2)
+        background: radial-gradient(circle closest-side, $body-bg-active 8px, $body-bg 8px)
+      &:last-child
+        margin-right: 0
+
+  &_line
+    width: 605px
+    background-color: $text-grey-body
+    border: none
+    margin-top: -18px
+    height: 2px
+    position: relative
+    z-index: -100
+
+  &_text
+    margin-top: 100px
+    p
+      width: 640px
+      font-size: 21px
+      letter-spacing: 2px
+      line-height: 29px
+      color: $text-grey-body
+      padding-left: 15px
+
+  &_image
+    margin-top: 170px
     img
-      height: 100px
-      margin-top: 40px
+      @include border-radius(25px)
+      @include box-shadow(0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
+      &:nth-child(2)
+        margin-top: -160px
+        margin-left: -355px
 
-.first-box
+      &:last-child
+        margin-top: -80px
+        margin-left: -345px
+
+.second-box
   margin-top: 100px
+
 
 @import "media"
