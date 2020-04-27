@@ -123,7 +123,7 @@ body {
 .top-nav_menu li, .top-nav_menu_shell li {
   margin-right: 14px;
   position: relative;
-  width: 105px;
+  width: 97px;
 }
 .top-nav_menu li p, .top-nav_menu_shell li p {
   font-size: 13px;
@@ -340,7 +340,7 @@ input[type="search"]::placeholder {
   height: 116px;
   border-left: 1px solid #006400;
   border-right: 1px solid #006400;
-  bottom: 155px;
+  bottom: 170px;
 }
 .frontbar_menu li:last-child {
   border-right: 1px solid #d0ced1;
@@ -358,10 +358,16 @@ input[type="search"]::placeholder {
   height: 355px;
   margin-top: 0;
 }
+.frontbar_menu li:hover p {
+  margin-top: -10px;
+}
+.frontbar_menu li:hover img {
+  margin-top: 74px;
+}
 .frontbar_menu li:hover a {
   background-color: #ffffff;
   color: #000000;
-  margin-top: 218px;
+  margin-top: 37px;
 }
 .frontbar_menu li:hover:nth-child(2)::after {
   display: none;
@@ -374,7 +380,7 @@ input[type="search"]::placeholder {
   color: #ffffff;
   display: block;
   padding: 5px 0;
-  margin: 185px 70px 20px 70px;
+  margin: 37px 70px 20px 70px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -387,33 +393,16 @@ input[type="search"]::placeholder {
   color: #333333;
   border: 1px solid #464646;
 }
-.frontbar_menu_shell {
-  pointer-events: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin-top: -320px;
-}
-.frontbar_menu_shell li {
-  background-color: transparent;
-  height: 287px;
-  width: 355px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top: 34px;
-}
-.frontbar_menu_shell li p {
+.frontbar_menu li p {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 21px;
   color: #626262;
-  margin-top: 65px;
+  margin-top: -15px;
 }
-.frontbar_menu_shell li img {
+.frontbar_menu img {
   height: 100px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .first-box, .second-box {
