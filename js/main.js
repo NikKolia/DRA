@@ -6,4 +6,13 @@ $(document).ready(function () {
         event.preventDefault();
         menu.toggleClass('top-nav_menu__active');
     });
+
+    $('.second-box_images').slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        adaptiveHeight: true
+    });
 });

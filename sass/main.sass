@@ -3,7 +3,6 @@
 @import "colors"
 @import "footer"
 
-
 .bold
   font-weight: 700
 
@@ -20,6 +19,7 @@ body
   background-color: $body-bg !important
   margin: 0
   font-family: $Helvet !important
+  max-width: 1920px
 
 .masthead
   height: 100vh
@@ -239,6 +239,21 @@ input[type="search"]::-ms-input-placeholder
 input[type="search"]::placeholder
   color: $text-white
 
+input[type="email"]::-moz-placeholder
+  color: $button-color
+
+input[type="email"]::-webkit-input-placeholder
+  color: $button-color
+
+input[type="email"]:-ms-input-placeholder
+  color: $button-color
+
+input[type="email"]::-ms-input-placeholder
+  color: $button-color
+
+input[type="email"]::placeholder
+  color: $button-color
+
 .aboutText
   width: 954px
   height: 39px
@@ -264,8 +279,6 @@ input[type="search"]::placeholder
         border-left: 1px solid $body-bg-nav
         border-top: 1px solid $body-bg-nav
         border-bottom: 1px solid $body-bg-nav
-      /* box-shadow: $shadow-first */
-
 
       &:nth-child(2)
         border-top: 1px solid $body-bg-nav
@@ -338,7 +351,7 @@ input[type="search"]::placeholder
       height: 100px
       margin-top: 40px
 
-.first-box, .second-box
+.first-box
   margin-top: 60px
 
   h2
@@ -358,6 +371,7 @@ input[type="search"]::placeholder
   &_items
     display: flex
     margin-top: 50px
+
     p
       font-size: 21px
       font-weight: 700
@@ -365,12 +379,14 @@ input[type="search"]::placeholder
       line-height: 23px
       color: $text-black
       margin-right: 200px
+
       &:last-child
         margin-right: 0
 
   &_points
     display: flex
     margin-top: 10px
+
     div
       height: 34px
       width: 34px
@@ -378,8 +394,10 @@ input[type="search"]::placeholder
       background: radial-gradient(circle closest-side, $text-grey-body 8px, $body-bg 8px)
       @include border-radius(25px)
       border: 2px solid $text-grey-body
+
       &:nth-child(2)
         background: radial-gradient(circle closest-side, $body-bg-active 8px, $body-bg 8px)
+
       &:last-child
         margin-right: 0
 
@@ -394,6 +412,7 @@ input[type="search"]::placeholder
 
   &_text
     margin-top: 100px
+
     p
       width: 640px
       font-size: 21px
@@ -404,9 +423,11 @@ input[type="search"]::placeholder
 
   &_image
     margin-top: 170px
+
     img
       @include border-radius(25px)
       @include box-shadow(0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
+
       &:nth-child(2)
         margin-top: -160px
         margin-left: -355px
@@ -417,6 +438,184 @@ input[type="search"]::placeholder
 
 .second-box
   margin-top: 100px
+  height: 234px
+  background-image: url('../img/SecondBg.jpg')
+  background-position: center
+  background-repeat: no-repeat
+  background-color: $second-box-bg
 
+  h2
+    font-size: 53px
+    font-weight: 700
+    letter-spacing: 3px
+    line-height: 58px
+    color: $text-black
+    padding-top: 15px
+
+  &_about
+    font-size: 21px
+    letter-spacing: 2px
+    line-height: 29px
+    color: $text-grey-body
+    margin-top: 20px
+
+  &_menu
+    background-color: $second-box-menu
+
+  &_bg
+    background-color: $second-box-bg
+
+  &_menu
+    position: relative
+    height: 86px
+    list-style: none
+    display: flex
+    margin-bottom: 1px
+    padding: 0
+
+    li
+      position: relative
+      width: 154px
+
+      a
+        display: block
+        height: 85px
+        text-transform: uppercase
+        color: $text-black
+        text-decoration: none
+        font-size: 19px
+        letter-spacing: 1px
+        line-height: 21px
+        font-weight: 700
+        padding-top: 32px
+
+        &:hover
+          background-color: $body-bg-active
+          text-decoration: none
+          text-shadow: 1px 1px 2px $text-white
+          border: 2px solid $second-box-border
+
+  &_image
+    background-position: center
+    background-repeat: no-repeat
+    height: 438px
+
+.subscribe
+  background-color: $second-box-bg
+
+  h2
+    text-transform: uppercase
+    font-size: 53px
+    font-weight: 800
+    letter-spacing: 3px
+    line-height: 58px
+    color: $text-black
+    padding-top: 80px
+
+  &_about
+    font-size: 21px
+    letter-spacing: 2px
+    line-height: 29px
+    color: $text-grey-body
+    margin-top: 20px
+
+  &_box
+    padding-top: 20px
+    background-color: $second-box-bg
+
+    &_btn
+      padding: 26px 62px
+      display: inline-block
+      background-color: $button-color
+      color: $text-white
+      @include border-radius(25px)
+      text-decoration: none
+      transition: all 0.2s
+      font-size: 23px
+      letter-spacing: 2px
+      line-height: 34px
+      font-weight: 700
+      margin-bottom: 150px
+      border: 1px solid $button-color
+
+      &:hover
+        text-decoration: none
+        background-color: lighten($text-black, 20%)
+        color: darken($text-white, 20%)
+        border: 1px solid $text-grey-nav
+
+    input
+      @include border-radius(25px)
+      background-color: $body-menu
+      font-size: 23px
+      letter-spacing: 2px
+      line-height: 34px
+      color: $button-color
+      padding-left: 43px
+      padding-top: 25px
+      padding-bottom: 25px
+      margin-right: 25px
+      width: 535px
+      border: 1px solid $text-grey-nav
+
+.footer
+  height: 350px
+  /* 410px */
+  background-image: url('../img/footer.png')
+  background-position: center
+  background-repeat: no-repeat
+  background-color: #464646
+  padding-top: 110px
+
+  &-right
+    display: flex
+
+    img
+      margin-right: 40px
+
+    p
+      font-size: 21px
+      letter-spacing: 1px
+      line-height: 29px
+      color: $text-white
+      font-family: $Myriad
+      margin-right: 20px
+
+  &-left
+    margin-top: -30px
+    padding-left: 60px
+    a
+      padding-right: 50px
+
+  &-left-menu
+    position: relative
+    display: flex
+    padding: 20px 0 0
+
+    ul
+      margin-right: 10px
+
+    li
+      position: relative
+      color: $text-white
+
+      &:first-child
+        list-style: none
+
+      a
+        color: $text-white
+        padding: 20px 30px 0 0
+        display: block
+        text-transform: uppercase
+        text-decoration: none
+        font-size: 21px
+        letter-spacing: 1px
+        line-height: 42px
+        font-family: $Myriad
+        font-weight: 700
+
+        &:hover
+          text-decoration: none
+          color: darken($text-white, 25%)
 
 @import "media"

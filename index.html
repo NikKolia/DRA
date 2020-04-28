@@ -12,6 +12,10 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Slick Slider -->
+    <link href="slick/slick-theme.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -27,9 +31,9 @@
                 </div>
             </div><!-- /.col-md -->
             <div class="col-md-auto top-right">
-                <img src="img/location.png" alt="location_ikon">
+                <img src="img/location.png" alt="location_icon">
                 <p>(213) 632-6840<br/><span class="top-right-mail">info@imaginecrm.com</span></p>
-                <img src="img/phone.png" alt="phone_ikon">
+                <img src="img/phone.png" alt="phone_icon">
                 <p>(213) 632-6840<br/><span class="top-right-mail">info@imaginecrm.com</span></p>
             </div><!-- /.col-md -->
         </div>
@@ -37,7 +41,7 @@
         <div class="row justify-content-between align-items-center center">
             <div class="col-md-auto">
                 <button class="top-nav_btn">
-                    <i class="icon-menu"></i>
+                    <img src="img/button.png" alt="button">
                 </button>
                 <ul class="top-nav_menu">
                     <li>
@@ -89,7 +93,7 @@
                         <a href="#"><img class="cart" src="img/cart.png" alt="cart image"></a>
                     </li>
                     <li>
-                        <a href="#"><img class="search_ikon" src="img/search.png" alt="search image"></a>
+                        <a href="#"><img class="search_icon" src="img/search.png" alt="search image"></a>
                     </li>
                     <li>
                         <input type="search" class="search" placeholder="Search">
@@ -115,17 +119,17 @@
             <div class="frontbar">
                 <ul class="frontbar_menu">
                     <li>
-                        <img src="img/charity.png" alt="charity ikon">
+                        <img src="img/charity.png" alt="charity icon">
                         <a href="#">ABOUT US</a>
                         <p>LEARN MORE ABOUT<br/>DEATH ROW ARTS</p>
                     </li>
                     <li>
-                        <img src="img/patron.png" alt="patron ikon">
+                        <img src="img/patron.png" alt="patron icon">
                         <a href="#">SPONSORS</a>
                         <p>OUR SPONSORS</p>
                     </li>
                     <li>
-                        <img src="img/art-wall.png" alt="art-wall ikon">
+                        <img src="img/art-wall.png" alt="art-wall icon">
                         <a href="#">ART WALL</a>
                         <p>BROWSE RANDOM ARTS</p>
                     </li>
@@ -179,33 +183,104 @@
         </div>
     </div>
     <!-- Art Showcase -->
-    <div class="second-box">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-auto center">
-                <h2>Art Showcase</h2>
-                <p class="second-box_about">This is a collective place to purchase artwork</p>
-            </div><!-- /.col-md -->
+    <div class="row justify-content-center align-items-center second-box">
+        <div class="col-md-auto center">
+            <h2>Art Showcase</h2>
+            <p class="second-box_about">This is a collective place to purchase artwork</p>
+        </div><!-- /.col-md -->
+    </div>
+    <div class="row justify-content-center align-items-center second-box_menu">
+        <div class="col-md-auto center">
+            <ul class="second-box_menu">
+                <li>
+                    <a href="#">TRENDING</a>
+                </li>
+                <li>
+                    <a href="#">BEST SELING</a>
+                </li>
+                <li>
+                    <a href="#">PICKS</a>
+                </li>
+                <li>
+                    <a href="#">LATEST</a>
+                </li>
+            </ul>
+        </div><!-- /.col-md -->
+    </div>
+    <div class="row">
+        <div class="col-md-12 second-box_images center second-box_bg">
+            <div class="second-box_image" style="background-image: url(img/showcase1.png)">
+                <p>1</p>
+            </div>
+            <div class="second-box_image" style="background-image: url(img/showcase2.png)">
+                <p>2</p>
+            </div>
+            <div class="second-box_image" style="background-image: url(img/showcase3.png)">
+                <p>3</p>
+            </div>
+            <div class="second-box_image" style="background-image: url(img/showcase4.jpg)">
+                <p>4</p>
+            </div>
+            <div class="second-box_image" style="background-image: url(img/showcase5.jpg)">
+                <p>5</p>
+            </div>
         </div>
     </div>
+
+    <div class="row justify-content-center align-items-center subscribe">
+        <div class="col-md-auto center">
+            <h2>SUBSCRIBE</h2>
+            <p class="subscribe_about">Sign up with your email address to recieve news and updates.</p>
+        </div><!-- /.col-md -->
+    </div>
+    <div class="row justify-content-center align-items-center subscribe_box">
+        <div class="col-md-auto">
+            <input type="email" class="email" placeholder="Email Address">
+            <a href="#" class="subscribe_box_btn">SIGN UP</a>
+        </div><!-- /.col-md -->
+    </div>
+
 </div>
 
 <footer class="footer">
-    <div class="container">
-        <div class="col-md-auto footer-social-links">
-            <ul>
-                <li><a href="#" class="icon-facebook"></a></li>
-                <li><a href="#" class="icon-linkedin"></a></li>
-                <li><a href="#" class="icon-twitter"></a></li>
-            </ul>
-        </div><!-- /.col-md -->
-        <div class="col-md-auto">
-
-        </div><!-- /.col-md -->
+    <div class="container-fluid">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-auto">
+                <div class="footer-left">
+                    <a href="#"><img src="img/fb.png" alt="facebook icon"></a>
+                    <a href="#"><img src="img/in.png" alt="linkedin_icon"></a>
+                    <a href="#"><img src="img/twitter.png" alt="twitter_icon"></a>
+                    <ul class="footer-left-menu">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">ARTIST SHOWCASE</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /.col-md -->
+            <div class="col-md-auto footer-right">
+                <img src="img/DRA-logoFooter.png" alt="DRA">
+                <p>Death Row Arts is an organization in<br/>
+                    collaboration with Death Row Inmates<br/>
+                    to showcase talent in places you don’t<br/>
+                    see every day. We provide art pieces<br/>
+                    full of passion and emotion.</p>
+            </div><!-- /.col-md -->
+        </div>
     </div><!-- /.container -->
 </footer>
 
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
+<script src="slick/slick.js"></script>
 </body>
 </html>
