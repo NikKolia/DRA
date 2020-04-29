@@ -3,15 +3,6 @@
 @import "colors"
 @import "footer"
 
-.bold
-  font-weight: 700
-
-.italic
-  font-style: italic
-
-.myriad
-  font-family: $Myriad !important
-
 .center
   text-align: center
 
@@ -29,10 +20,11 @@ body
   background-position: center
   background-repeat: no-repeat
   background-color: $header-bg
-  padding-top: 50px
+  padding-top: 115px
 
 .top-right
   display: flex
+  margin-top: -17px
 
   img
     height: 45px
@@ -54,7 +46,7 @@ body
   position: relative
 
   &-logo
-    padding-left: 20px
+    padding-left: 45px
 
   ul
     margin-bottom: 0
@@ -62,21 +54,21 @@ body
   &_btn
     display: none
     font-size: 20px
-    width: 35px
-    height: 35px
+    width: 52px
+    height: 29px
     background-color: transparent
     border: none
     position: absolute
     right: 15px
-    top: -55px
+    top: -245px
 
-    a:hover
+    img:hover
       cursor: pointer
 
   &_menu, &_menu_shell
     list-style: none
     display: flex
-    padding-left: 15px
+    padding-left: 0
 
     li
       margin-right: 14px
@@ -116,6 +108,7 @@ body
             transform: translateY(25px) scale(1)
 
 .top-nav_menu_shell
+  margin-top: -3px
   li
     &::after
       position: absolute
@@ -166,15 +159,15 @@ body
   font-size: 23px
   letter-spacing: 2px
   line-height: 95px
-  margin-top: 15px
+  margin-top: 65px
 
   &_label
     color: $text-white
     font-size: 53px
     letter-spacing: 1px
     line-height: 58px
-    margin-top: -20px
-    margin-bottom: 0
+    margin-top: -28px
+    margin-bottom: 2px
     font-weight: 800
 
     &_low
@@ -189,11 +182,11 @@ body
   background-color: $text-white
   border: none
   margin-top: 40px
-  margin-bottom: 24px
+  margin-bottom: 15px
   height: 1px
 
 .button
-  padding: 11px 44px
+  padding: 4px 38px
   display: inline-block
   background-color: $body-bg
   color: $text-black
@@ -205,6 +198,7 @@ body
   line-height: 25px
   border: 3px solid $body-bg
   font-weight: 700
+  margin-top: 14px
 
   &:hover
     text-decoration: none
@@ -260,7 +254,7 @@ input[type="email"]::placeholder
 
 .frontbar
   height: 360px
-  margin-top: -120px
+  margin-top: -132px
 
   &_menu
     display: flex
@@ -270,7 +264,7 @@ input[type="email"]::placeholder
     li
       background-color: $body-menu
       height: 287px
-      width: 355px
+      width: 356px
       transition: all 0.3s
       margin-top: 34px
 
@@ -288,10 +282,10 @@ input[type="email"]::placeholder
           position: relative
           content: ''
           display: block
-          height: 116px
+          height: 115px
           border-left: 1px solid $dark-green
           border-right: 1px solid $dark-green
-          bottom: 170px
+          bottom: 175px
 
       &:last-child
         border-right: 1px solid $body-bg-nav
@@ -307,10 +301,10 @@ input[type="email"]::placeholder
         margin-top: 0
 
         p
-          margin-top: -10px
+          margin-top: -15px
 
         img
-          margin-top: 74px
+          margin-top: 85px
 
         a
           background-color: $body-menu
@@ -349,10 +343,10 @@ input[type="email"]::placeholder
 
     img
       height: 100px
-      margin-top: 40px
+      margin-top: 50px
 
 .first-box
-  margin-top: 60px
+  margin-top: 125px
 
   h2
     font-size: 53px
@@ -366,11 +360,11 @@ input[type="email"]::placeholder
     letter-spacing: 2px
     line-height: 29px
     color: $text-grey-body
-    margin-top: 20px
+    margin-top: 27px
 
   &_items
     display: flex
-    margin-top: 50px
+    margin-top: 68px
 
     p
       font-size: 21px
@@ -385,7 +379,7 @@ input[type="email"]::placeholder
 
   &_points
     display: flex
-    margin-top: 10px
+    margin-top: 9px
 
     div
       height: 34px
@@ -411,33 +405,33 @@ input[type="email"]::placeholder
     z-index: -100
 
   &_text
-    margin-top: 100px
+    margin-top: 65px
 
     p
-      width: 640px
+      width: 660px
       font-size: 21px
       letter-spacing: 2px
       line-height: 29px
       color: $text-grey-body
-      padding-left: 15px
+      padding-left: 25px
 
   &_image
-    margin-top: 170px
+    margin-top: 150px
 
     img
       @include border-radius(25px)
       @include box-shadow(0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
 
       &:nth-child(2)
-        margin-top: -160px
+        margin-top: -175px
         margin-left: -355px
 
       &:last-child
-        margin-top: -80px
+        margin-top: -60px
         margin-left: -345px
 
 .second-box
-  margin-top: 100px
+  margin-top: 120px
   height: 234px
   background-image: url('../img/SecondBg.jpg')
   background-position: center
@@ -450,14 +444,14 @@ input[type="email"]::placeholder
     letter-spacing: 3px
     line-height: 58px
     color: $text-black
-    padding-top: 15px
+    padding-top: 20px
 
   &_about
     font-size: 21px
     letter-spacing: 2px
     line-height: 29px
     color: $text-grey-body
-    margin-top: 20px
+    margin-top: 15px
 
   &_menu
     background-color: $second-box-menu
@@ -475,7 +469,7 @@ input[type="email"]::placeholder
 
     li
       position: relative
-      width: 154px
+      width: 159px
 
       a
         display: block
@@ -517,14 +511,14 @@ input[type="email"]::placeholder
     letter-spacing: 2px
     line-height: 29px
     color: $text-grey-body
-    margin-top: 20px
+    margin-top: 18px
 
   &_box
     padding-top: 20px
     background-color: $second-box-bg
 
     &_btn
-      padding: 26px 62px
+      padding: 20px 55px
       display: inline-block
       background-color: $button-color
       color: $text-white
@@ -551,27 +545,27 @@ input[type="email"]::placeholder
       letter-spacing: 2px
       line-height: 34px
       color: $button-color
-      padding-left: 43px
-      padding-top: 25px
-      padding-bottom: 25px
-      margin-right: 25px
+      padding-left: 35px
+      padding-top: 20px
+      padding-bottom: 20px
+      margin-right: 20px
       width: 535px
       border: 1px solid $text-grey-nav
 
 .footer
-  height: 350px
-  /* 410px */
+  height: 410px
   background-image: url('../img/footer.png')
   background-position: center
   background-repeat: no-repeat
   background-color: #464646
-  padding-top: 110px
+  padding-top: 145px
 
   &-right
     display: flex
 
     img
       margin-right: 40px
+      height: 150px
 
     p
       font-size: 21px
@@ -582,18 +576,15 @@ input[type="email"]::placeholder
       margin-right: 20px
 
   &-left
-    margin-top: -30px
-    padding-left: 60px
+    margin-top: -10px
+    padding-left: 80px
     a
-      padding-right: 50px
+      padding-right: 40px
 
   &-left-menu
     position: relative
     display: flex
     padding: 20px 0 0
-
-    ul
-      margin-right: 10px
 
     li
       position: relative

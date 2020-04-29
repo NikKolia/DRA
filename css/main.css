@@ -35,18 +35,6 @@
   font-stretch: normal;
   unicode-range: U+0020-00FE;
 }
-.bold {
-  font-weight: 700;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.myriad {
-  font-family: "Myriad Pro", sans-serif !important;
-}
-
 .center {
   text-align: center;
 }
@@ -66,13 +54,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #000000;
-  padding-top: 50px;
+  padding-top: 115px;
 }
 
 .top-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: -17px;
 }
 .top-right img {
   height: 45px;
@@ -95,7 +84,7 @@ body {
   position: relative;
 }
 .top-nav-logo {
-  padding-left: 20px;
+  padding-left: 45px;
 }
 .top-nav ul {
   margin-bottom: 0;
@@ -103,15 +92,15 @@ body {
 .top-nav_btn {
   display: none;
   font-size: 20px;
-  width: 35px;
-  height: 35px;
+  width: 52px;
+  height: 29px;
   background-color: transparent;
   border: none;
   position: absolute;
   right: 15px;
-  top: -55px;
+  top: -245px;
 }
-.top-nav_btn a:hover {
+.top-nav_btn img:hover {
   cursor: pointer;
 }
 .top-nav_menu, .top-nav_menu_shell {
@@ -119,7 +108,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 15px;
+  padding-left: 0;
 }
 .top-nav_menu li, .top-nav_menu_shell li {
   margin-right: 14px;
@@ -162,6 +151,9 @@ body {
           transform: translateY(25px) scale(1);
 }
 
+.top-nav_menu_shell {
+  margin-top: -3px;
+}
 .top-nav_menu_shell li::after {
   position: absolute;
   content: "";
@@ -216,15 +208,15 @@ body {
   font-size: 23px;
   letter-spacing: 2px;
   line-height: 95px;
-  margin-top: 15px;
+  margin-top: 65px;
 }
 .welcome_label {
   color: #ffffff;
   font-size: 53px;
   letter-spacing: 1px;
   line-height: 58px;
-  margin-top: -20px;
-  margin-bottom: 0;
+  margin-top: -28px;
+  margin-bottom: 2px;
   font-weight: 800;
 }
 .welcome_label_low {
@@ -239,12 +231,12 @@ body {
   background-color: #ffffff;
   border: none;
   margin-top: 40px;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   height: 1px;
 }
 
 .button {
-  padding: 11px 44px;
+  padding: 4px 38px;
   display: inline-block;
   background-color: #fafafa;
   color: #000000;
@@ -259,6 +251,7 @@ body {
   line-height: 25px;
   border: 3px solid #fafafa;
   font-weight: 700;
+  margin-top: 14px;
 }
 .button:hover {
   text-decoration: none;
@@ -322,7 +315,7 @@ input[type="email"]::placeholder {
 
 .frontbar {
   height: 360px;
-  margin-top: -120px;
+  margin-top: -132px;
 }
 .frontbar_menu {
   display: -webkit-box;
@@ -334,7 +327,7 @@ input[type="email"]::placeholder {
 .frontbar_menu li {
   background-color: #ffffff;
   height: 287px;
-  width: 355px;
+  width: 356px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   margin-top: 34px;
@@ -353,10 +346,10 @@ input[type="email"]::placeholder {
   position: relative;
   content: "";
   display: block;
-  height: 116px;
+  height: 115px;
   border-left: 1px solid #006400;
   border-right: 1px solid #006400;
-  bottom: 170px;
+  bottom: 175px;
 }
 .frontbar_menu li:last-child {
   border-right: 1px solid #d0ced1;
@@ -375,10 +368,10 @@ input[type="email"]::placeholder {
   margin-top: 0;
 }
 .frontbar_menu li:hover p {
-  margin-top: -10px;
+  margin-top: -15px;
 }
 .frontbar_menu li:hover img {
-  margin-top: 74px;
+  margin-top: 85px;
 }
 .frontbar_menu li:hover a {
   background-color: #ffffff;
@@ -418,11 +411,11 @@ input[type="email"]::placeholder {
 }
 .frontbar_menu img {
   height: 100px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .first-box {
-  margin-top: 60px;
+  margin-top: 125px;
 }
 .first-box h2 {
   font-size: 53px;
@@ -436,13 +429,13 @@ input[type="email"]::placeholder {
   letter-spacing: 2px;
   line-height: 29px;
   color: #464646;
-  margin-top: 20px;
+  margin-top: 27px;
 }
 .first-box_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  margin-top: 68px;
 }
 .first-box_items p {
   font-size: 21px;
@@ -459,7 +452,7 @@ input[type="email"]::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 .first-box_points div {
   height: 34px;
@@ -487,18 +480,18 @@ input[type="email"]::placeholder {
   z-index: -100;
 }
 .first-box_text {
-  margin-top: 100px;
+  margin-top: 65px;
 }
 .first-box_text p {
-  width: 640px;
+  width: 660px;
   font-size: 21px;
   letter-spacing: 2px;
   line-height: 29px;
   color: #464646;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 .first-box_image {
-  margin-top: 170px;
+  margin-top: 150px;
 }
 .first-box_image img {
   border-radius: 25px;
@@ -508,16 +501,16 @@ input[type="email"]::placeholder {
   box-shadow: 0 0 25px 30px rgba(0, 0, 0, 0.25);
 }
 .first-box_image img:nth-child(2) {
-  margin-top: -160px;
+  margin-top: -175px;
   margin-left: -355px;
 }
 .first-box_image img:last-child {
-  margin-top: -80px;
+  margin-top: -60px;
   margin-left: -345px;
 }
 
 .second-box {
-  margin-top: 100px;
+  margin-top: 120px;
   height: 234px;
   background-image: url("../img/SecondBg.jpg");
   background-position: center;
@@ -530,14 +523,14 @@ input[type="email"]::placeholder {
   letter-spacing: 3px;
   line-height: 58px;
   color: #000000;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 .second-box_about {
   font-size: 21px;
   letter-spacing: 2px;
   line-height: 29px;
   color: #464646;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .second-box_menu {
   background-color: #d0ced1;
@@ -557,7 +550,7 @@ input[type="email"]::placeholder {
 }
 .second-box_menu li {
   position: relative;
-  width: 154px;
+  width: 159px;
 }
 .second-box_menu li a {
   display: block;
@@ -600,14 +593,14 @@ input[type="email"]::placeholder {
   letter-spacing: 2px;
   line-height: 29px;
   color: #464646;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 .subscribe_box {
   padding-top: 20px;
   background-color: #d7d7d7;
 }
 .subscribe_box_btn {
-  padding: 26px 62px;
+  padding: 20px 55px;
   display: inline-block;
   background-color: #464646;
   color: #ffffff;
@@ -639,22 +632,21 @@ input[type="email"]::placeholder {
   letter-spacing: 2px;
   line-height: 34px;
   color: #464646;
-  padding-left: 43px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 25px;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
   width: 535px;
   border: 1px solid #626262;
 }
 
 .footer {
-  height: 350px;
-  /* 410px */
+  height: 410px;
   background-image: url("../img/footer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #464646;
-  padding-top: 110px;
+  padding-top: 145px;
 }
 .footer-right {
   display: -webkit-box;
@@ -663,6 +655,7 @@ input[type="email"]::placeholder {
 }
 .footer-right img {
   margin-right: 40px;
+  height: 150px;
 }
 .footer-right p {
   font-size: 21px;
@@ -673,11 +666,11 @@ input[type="email"]::placeholder {
   margin-right: 20px;
 }
 .footer-left {
-  margin-top: -30px;
-  padding-left: 60px;
+  margin-top: -10px;
+  padding-left: 80px;
 }
 .footer-left a {
-  padding-right: 50px;
+  padding-right: 40px;
 }
 .footer-left-menu {
   position: relative;
@@ -685,9 +678,6 @@ input[type="email"]::placeholder {
   display: -ms-flexbox;
   display: flex;
   padding: 20px 0 0;
-}
-.footer-left-menu ul {
-  margin-right: 10px;
 }
 .footer-left-menu li {
   position: relative;
@@ -714,6 +704,65 @@ input[type="email"]::placeholder {
 }
 
 /* Адаптив для сайта */
+.masthead {
+  padding-top: 70px;
+}
+
+.welcome {
+  margin-top: 40px;
+}
+
+.subscribe h2 {
+  padding-top: 60px;
+}
+.subscribe_box_btn {
+  margin-bottom: 100px;
+}
+
+.footer {
+  height: 300px;
+}
+.footer-left {
+  margin-top: -60px;
+}
+.footer-right {
+  margin-top: -50px;
+}
+
+.footer {
+  height: 410px;
+}
+.footer-right {
+  margin-top: 20px;
+  margin-left: 82px;
+}
+.footer-left {
+  margin-top: -100px;
+}
+
+.top-nav_menu_right {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.welcome {
+  margin-top: -10px;
+}
+
+.button {
+  margin-top: -10px;
+}
+
+.top-right {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 30px;
+}
+
+.top-nav_menu_right {
+  margin-left: 50px;
+}
+
 @media (max-width: 767px) {
   .top-nav_btn {
     display: block;
