@@ -16,8 +16,13 @@ $(document).ready(function () {
         adaptiveHeight: true
     });
 
-    var imageHeight = $('.grid_item_image(img(height))');
+
+    var img = new Image();
+    img.onload = function() {
+    var imageHeight = this.height;
+    };
     var rawHeight = 10; // Looking to Grid.scss
     var spans = Math.ceil(imageHeight / rawHeight);
-    spans = $span
+
+    /* var imageHeight = $('.grid_item(img(height))'); */
 });
