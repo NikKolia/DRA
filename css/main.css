@@ -60,7 +60,7 @@
   color: #464646;
 }
 .sponsors_video p {
-  /* margin-top: 80px /* 185px */ */
+  /* margin-top: 80px /* 185px */
   vertical-align: middle;
   font-size: 25px;
   letter-spacing: 3px;
@@ -71,6 +71,214 @@
 .sponsors_video_image img {
   margin-top: 20px;
   width: 700px;
+}
+
+.masthead-profile {
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("../img/artist profile_header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  padding-top: 115px;
+}
+
+.artist-profile_top img {
+  height: 127px;
+  width: 127px;
+}
+.artist-profile_top h1 {
+  font-size: 61px;
+  letter-spacing: 1px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.artist-profile_top_label, .artist-profile_top_loc, .artist-profile_top_stat {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #959595;
+}
+.artist-profile_top_loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.artist-profile_top_loc img {
+  height: 30px;
+  width: 22px;
+}
+.artist-profile_top_loc p {
+  vertical-align: center;
+  padding-left: 15px;
+}
+.artist-profile_top_stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.artist-profile_top_stat p {
+  margin-right: 14px;
+  position: relative;
+}
+.artist-profile_top_stat p::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 20px;
+  border-left: 2px solid #959595;
+  right: -8px;
+  bottom: 1px;
+}
+.artist-profile_top_stat p:last-child::after {
+  display: none;
+}
+
+.artist-profile_menu {
+  position: relative;
+  height: 86px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1px;
+  padding: 0;
+}
+.artist-profile_menu_bg {
+  background-color: #262626;
+  border-bottom: 2px solid #ffc608;
+}
+.artist-profile_menu li {
+  margin-right: 14px;
+  position: relative;
+}
+.artist-profile_menu li a {
+  display: block;
+  height: 85px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 21px;
+  padding-top: 32px;
+}
+.artist-profile_menu li a:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: #d9d9d9;
+  height: 90px;
+  padding-top: 33px;
+}
+.artist-profile_menu_line {
+  background-color: #ffc608;
+  padding: 0;
+}
+.artist-profile_menu_second {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+.artist-profile_menu_second_bg {
+  background-color: #000000;
+}
+.artist-profile_menu_second_bg ul {
+  margin-bottom: 0;
+}
+.artist-profile_menu_second li {
+  margin-right: 15px;
+  position: relative;
+}
+.artist-profile_menu_second li a {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 21px;
+  height: 85px;
+  padding-top: 32px;
+}
+.artist-profile_menu_second li a:hover {
+  color: #ffc608;
+}
+.artist-profile_menu_second li::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 15px;
+  border-left: 2px solid #ffffff;
+  right: -8px;
+  bottom: 35px;
+}
+.artist-profile_menu_second li:last-child::after {
+  display: none;
+}
+
+.artist-profile_button {
+  padding: 4px 38px;
+  background-color: #ffc608;
+  color: #000000;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  border: 1px solid #262626;
+  font-weight: 700;
+  margin-top: 14px;
+}
+.artist-profile_button:hover {
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #464646;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: static;
+  padding: 0 15px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.grid_content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0 15px;
+  grid-auto-rows: 11px;
+}
+.grid_item {
+  width: 100%;
+}
+.grid_item img {
+  width: 100%;
+  display: block;
+}
+
+.gridRowEnd {
+  grid-row-end: span 19;
 }
 
 .center {

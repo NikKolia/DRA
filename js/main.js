@@ -15,4 +15,9 @@ $(document).ready(function () {
         slidesToScroll: 1,
         adaptiveHeight: true
     });
+
+    var imageHeight = $('.grid_item_image(img(height))');
+    var rawHeight = 10; // Looking to Grid.scss
+    var spans = Math.ceil(imageHeight / rawHeight);
+    spans = $span
 });
