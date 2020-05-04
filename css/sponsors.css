@@ -1,32 +1,32 @@
 .sponsors {
-  margin-top: 320px;
-  margin-bottom: 325px;
-  /* 870 */ }
+  margin-top: 155px;
+  margin-bottom: 170px; }
   .sponsors_line {
     margin-bottom: 5px; }
   .sponsors img {
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    -moz-border-radius: 10px; }
+    -moz-border-radius: 10px;
+    height: 160px; }
   .sponsors_video {
     background-color: #d0d0d0;
-    padding-bottom: 50px; }
+    padding-bottom: 122px; }
     .sponsors_video h2 {
-      margin-top: 85px;
+      margin-top: 87px;
       font-size: 55px;
       letter-spacing: 6px;
       line-height: 77px;
       color: #464646; }
     .sponsors_video p {
-      /* margin-top: 80px /* 185px */
+      margin-top: -95px;
       vertical-align: middle;
       font-size: 25px;
       letter-spacing: 3px;
       line-height: 35px;
       color: #464646;
-      width: 730px; }
+      width: auto; }
     .sponsors_video_image img {
-      margin-top: 20px;
-      width: 700px; }
+      margin-top: -98px;
+      width: 870px; }
 
 /*# sourceMappingURL=sponsors.css.map */

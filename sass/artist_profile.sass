@@ -13,10 +13,13 @@
 
 .artist-profile_top
   img
+    margin-top: 146px
+    border: 5px solid $text-white
     height: 127px
     width: 127px
 
   h1
+    margin-top: 43px
     font-size: 61px
     letter-spacing: 1px
     line-height: 55px
@@ -30,13 +33,17 @@
     color: $artist-profile_top
 
   &_loc
+    margin-top: 20px
     display: flex
 
     img
+      margin-top: -5px
+      border: none
       height: 30px
       width: 22px
 
     p
+      margin-bottom: 22px
       vertical-align: center
       padding-left: 15px
 
@@ -64,7 +71,7 @@
 .artist-profile
   &_menu
     position: relative
-    height: 86px
+    height: 95px
     list-style: none
     display: flex
     margin-bottom: 1px
@@ -80,7 +87,7 @@
 
       a
         display: block
-        height: 85px
+        height: 95px
         text-transform: uppercase
         color: $text-white
         text-decoration: none
@@ -88,14 +95,14 @@
         font-size: 17px
         letter-spacing: 0
         line-height: 21px
-        padding-top: 32px
+        padding-top: 38px
+        padding-left: 20px
+        padding-right: 20px
 
         &:hover
           text-decoration: none
           background-color: $text-black
           color: darken($text-white, 15%)
-          height: 90px
-          padding-top: 33px
 
     &_line
       background-color: $body-bg-active
@@ -114,7 +121,7 @@
           margin-bottom: 0
 
       li
-        margin-right: 15px
+        margin-right: 20px
         position: relative
 
         a
@@ -137,7 +144,7 @@
           display: block
           height: 15px
           border-left: 2px solid $text-white
-          right: -8px
+          right: -12px
           bottom: 35px
 
         &:last-child
@@ -160,13 +167,13 @@
   &:hover
     text-decoration: none
     color: lighten($text-black, 20%)
-    border: 1px solid $button-color
+    border: 1px solid $body-bg-active
 
 .grid
-  max-width: 1500px
+  max-width: 100%
   margin: 0 auto
   position: static
-  padding: 0 15px
+  // padding: 0 15px
   width: 100%
   height: 100%
   display: flex
@@ -175,8 +182,8 @@
   &_content
     width: 100%
     display: grid
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
-    grid-gap: 0 1px
+    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)) /* 350 - 430 */
+    grid-gap: 0 10px
     grid-auto-rows: 11px
 
   &_item
