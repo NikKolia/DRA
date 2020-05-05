@@ -104,10 +104,6 @@
           background-color: $text-black
           color: darken($text-white, 15%)
 
-    &_line
-      background-color: $body-bg-active
-      padding: 0
-
     &_second
       list-style: none
       display: flex
@@ -115,7 +111,6 @@
 
       &_bg
         background-color: $header-bg
-        margin-bottom: 3px
 
         ul
           margin-bottom: 0
@@ -169,6 +164,11 @@
     color: lighten($text-black, 20%)
     border: 1px solid $body-bg-active
 
+.grid-cont
+  padding: 5px
+  background-color: $text-grey-nav
+  // background-color: $sponsors-bg - lighten
+
 .grid
   max-width: 100%
   margin: 0 auto
@@ -183,7 +183,7 @@
     width: 100%
     display: grid
     grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)) /* 350 - 430 */
-    grid-gap: 0 10px
+    grid-gap: 0 5px
     grid-auto-rows: 11px
 
   &_item
