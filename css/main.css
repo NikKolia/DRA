@@ -287,7 +287,7 @@
 }
 
 .art-wall_top h1 {
-  margin-top: 30px;
+  margin-top: 135px;
   font-size: 42px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -295,22 +295,23 @@
   color: #ffffff;
 }
 .art-wall_top_button {
-  padding: 4px 38px;
+  width: 260px;
+  padding-top: 2px;
   display: inline-block;
   background-color: transparent;
   color: #ffffff;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   text-decoration: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  font-size: 17px;
+  font-size: 21px;
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 32px;
   border: 2px solid #fafafa;
-  margin-top: 30px;
-  margin-right: 30px;
+  margin-top: 54px;
+  margin-right: 55px;
 }
 .art-wall_top_button:last-child {
   margin-right: 0;
@@ -326,7 +327,7 @@
 }
 
 .art-wall_top_imgs {
-  margin-top: -220px;
+  margin-top: -275px;
 }
 .art-wall_top_imgs_row {
   display: -webkit-box;
@@ -399,8 +400,8 @@
 }
 
 .art-wall-firstbox {
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 50px;
+  padding-top: 60px;
   height: 785px;
   background-image: url("../img/art-wall/art-wall-firstBox-bg.jpg");
   background-position: center;
@@ -414,6 +415,7 @@
   color: #fec608;
 }
 .art-wall-firstbox .second {
+  margin-top: 40px;
   font-size: 45px;
   letter-spacing: 1px;
   line-height: 54px;
@@ -426,6 +428,9 @@
   color: #acacac;
 }
 
+.art-wall-firstbox-item-title, .art-wall-secondbox-item-title {
+  margin-bottom: 55px;
+}
 .art-wall-firstbox-item-title p, .art-wall-secondbox-item-title p {
   font-size: 42px;
   font-weight: 700;
@@ -433,10 +438,34 @@
   line-height: 50px;
   color: #fec608;
   border: 3px solid #ffc608;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  margin: 20px 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 20px 100px;
+}
+
+.art-wall-firstbox-button {
+  padding: 10px 15px;
+  display: inline-block;
+  background-color: #fec608;
+  color: #000000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  border: 1px solid #464646;
+  font-weight: 700;
+  margin-top: 82px;
+}
+.art-wall-firstbox-button:hover {
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #fec608;
 }
 
 .art-wall-secondbox-item-title p {
@@ -454,40 +483,51 @@
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  width: 420px;
   height: 610px;
   background-color: #464646;
-  margin-right: 30px;
+  margin-top: -64px;
+  margin-right: 50px;
 }
 .art-wall-firstbox-items-first-row, .art-wall-firstbox-items-second-row {
+  margin-top: 37px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 400px;
 }
 .art-wall-firstbox-items-first-row-img, .art-wall-firstbox-items-second-row-img {
   width: 65px;
   height: 65px;
   overflow: hidden;
   background: #646564;
+  margin-top: 8px;
+  margin-left: 25px;
   padding-top: 7px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+}
+.art-wall-firstbox-items-first-row p, .art-wall-firstbox-items-second-row p {
+  text-align: left;
 }
 .art-wall-firstbox-items-first-row p:first-child, .art-wall-firstbox-items-second-row p:first-child {
   font-size: 23px;
   letter-spacing: 0;
   line-height: 27px;
   color: #fec608;
+  margin-left: 15px;
 }
 .art-wall-firstbox-items-first-row p:last-child, .art-wall-firstbox-items-second-row p:last-child {
+  margin: -10px;
   font-size: 17px;
   letter-spacing: 0;
   line-height: 25px;
   color: #acacac;
+  margin-left: 15px;
 }
 
 .art-wall-secondBox {
+  padding: 10px 20px 6px 50px;
   background-color: #262626;
 }
 .art-wall-secondBox h2 {
@@ -497,6 +537,7 @@
   color: #ffffff;
 }
 .art-wall-secondBox p {
+  padding-top: 4px;
   font-size: 21px;
   letter-spacing: 0;
   line-height: 29px;
@@ -511,6 +552,7 @@
 
 .art-wall-secondBox-img {
   background-color: #000000;
+  padding: 20px;
 }
 
 .art-wall-midImg {
@@ -523,51 +565,97 @@
 }
 
 .art-wall-thirdBox {
+  padding: 60px 10px 70px 20px;
   background-color: #000000;
 }
+.art-wall-thirdBox img {
+  height: 650px;
+  width: 360px;
+}
+.art-wall-thirdBox p {
+  margin-left: 30px;
+  padding-right: 10px;
+}
 .art-wall-thirdBox p:first-child {
+  margin-top: 14px;
   font-size: 42px;
   letter-spacing: 1px;
   line-height: 29px;
   color: #ffffff;
 }
 .art-wall-thirdBox p:nth-child(2) {
+  margin-top: 40px;
   font-size: 71px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 50px;
   color: #fec608;
 }
-.art-wall-thirdBox p:last-child {
+.art-wall-thirdBox p:nth-child(3) {
+  margin-top: 35px;
   width: 467px;
-  height: 501px;
+  height: 400px;
   font-size: 21px;
   letter-spacing: 0;
   line-height: 29px;
   color: #acacac;
 }
-.art-wall-thirdBox p a {
+.art-wall-thirdBox a {
+  margin-left: 35px;
   font-size: 27px;
   letter-spacing: 1px;
   line-height: 32px;
   color: #000000;
 }
 
+.art-wall-thirdBox-button {
+  padding: 11px 15px;
+  display: inline-block;
+  background-color: #fec608;
+  color: #000000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  border: 1px solid #464646;
+  margin-top: 10px;
+}
+.art-wall-thirdBox-button:hover {
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #fec608;
+}
+
 .art-wall-forthBox {
+  padding-top: 130px;
+  padding-bottom: 120px;
   background-color: #1d1d1d;
 }
+.art-wall-forthBox p {
+  padding-left: 30px;
+}
 .art-wall-forthBox p:first-child {
+  padding-top: 35px;
+  font-weight: 700;
   font-size: 56px;
   letter-spacing: 1px;
   line-height: 63px;
   color: #fec608;
 }
-.art-wall-forthBox p:last-child {
+.art-wall-forthBox p:nth-child(2) {
   width: 561px;
   font-size: 21px;
   letter-spacing: 0;
   line-height: 29px;
   color: #646564;
+}
+.art-wall-forthBox-img {
+  padding-left: 30px;
 }
 
 .art-wall-subscribe {
@@ -579,6 +667,7 @@
 }
 .art-wall-subscribe p:first-child {
   font-size: 56px;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 63px;
   color: #fec608;
@@ -591,44 +680,39 @@
   color: #646564;
 }
 .art-wall-subscribe input {
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  background-color: #ffffff;
-  font-size: 23px;
-  letter-spacing: 2px;
-  line-height: 34px;
-  color: #464646;
-  padding-left: 35px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: 20px;
-  width: 535px;
-  border: 1px solid #626262;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-right: -5px;
+  width: 490px;
+  border: 1px solid #ffffff;
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 35px;
 }
 .art-wall-subscribe_btn {
-  padding: 20px 55px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 60px;
+  padding-left: 60px;
   display: inline-block;
-  background-color: #464646;
-  color: #ffffff;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
+  background-color: #fec608;
+  color: #000000;
   text-decoration: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  font-size: 23px;
-  letter-spacing: 2px;
-  line-height: 34px;
-  font-weight: 700;
-  margin-bottom: 165px;
-  border: 1px solid #464646;
+  border: 1px solid #fec608;
+  font-size: 38px;
+  letter-spacing: 1px;
+  line-height: 42px;
 }
 .art-wall-subscribe_btn:hover {
   text-decoration: none;
-  background-color: #333333;
-  color: #cccccc;
-  border: 1px solid #626262;
+  background-color: #fecc21;
+  color: #333333;
+  border: 1px solid #ffffff;
 }
 
 .center {
@@ -1369,6 +1453,64 @@ input[type="email"]::placeholder {
     margin-top: -38px;
     margin-right: 20px;
     width: 600px;
+  }
+
+  .masthead-profile, .masthead {
+    padding-top: 50px;
+  }
+
+  .art-wall_top h1 {
+    margin-top: 30px;
+  }
+  .art-wall_top_button {
+    margin-top: 30px;
+  }
+
+  .art-wall_top_imgs {
+    margin-top: -220px;
+  }
+
+  .art-wall-subscribe_btn {
+    margin-left: 80px;
+  }
+
+  .art-wall-firstbox {
+    padding-left: 20px;
+  }
+  .art-wall-firstbox .first {
+    font-size: 20px;
+  }
+  .art-wall-firstbox .second {
+    font-size: 35px;
+  }
+  .art-wall-firstbox .third {
+    font-size: 20px;
+  }
+
+  .art-wall-firstbox-items-first {
+    margin-left: -160px;
+  }
+
+  .art-wall-thirdBox {
+    padding: 60px 5px 70px 15px;
+  }
+  .art-wall-thirdBox p {
+    margin-left: 20px;
+  }
+  .art-wall-thirdBox p:first-child {
+    font-size: 35px;
+  }
+  .art-wall-thirdBox p:nth-child(2) {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .art-wall-thirdBox p:nth-child(3) {
+    margin-top: 30px;
+    width: 350px;
+    font-size: 16px;
+  }
+  .art-wall-thirdBox a {
+    margin-left: 20px;
   }
 }
 @media (max-width: 1500px) {

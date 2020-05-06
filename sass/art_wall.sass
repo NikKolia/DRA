@@ -3,7 +3,7 @@
 
 .art-wall_top
   h1
-    margin-top: 30px
+    margin-top: 135px
     font-size: 42px
     font-weight: 700
     letter-spacing: 1px
@@ -11,19 +11,20 @@
     color: $text-white
 
   &_button
-    padding: 4px 38px
+    width: 260px
+    padding-top: 2px
     display: inline-block
     background-color: transparent
     color: $text-white
-    @include border-radius(25px)
+    @include border-radius(15px)
     text-decoration: none
     transition: all 0.2s
-    font-size: 17px
+    font-size: 21px
     letter-spacing: 2px
-    line-height: 20px
+    line-height: 32px
     border: 2px solid $body-bg
-    margin-top: 30px
-    margin-right: 30px
+    margin-top: 54px
+    margin-right: 55px
     &:last-child
       margin-right: 0
 
@@ -37,7 +38,7 @@
       border: 2px solid darken($text-orange, 15%)
 
 .art-wall_top_imgs
-  margin-top: -220px
+  margin-top: -275px
   &_row
     display: flex
     &_item
@@ -103,8 +104,8 @@
           color: darken($text-white, 15%)
 
 .art-wall-firstbox
-  padding-left: 30px
-  padding-top: 30px
+  padding-left: 50px
+  padding-top: 60px
   height: 785px
   background-image: url('../img/art-wall/art-wall-firstBox-bg.jpg')
   background-position: center
@@ -118,6 +119,7 @@
     color: $art-wall-orange
 
   .second
+    margin-top: 40px
     font-size: 45px
     letter-spacing: 1px
     line-height: 54px
@@ -130,6 +132,7 @@
     color: $art-wall-grey
 
 .art-wall-firstbox-item-title, .art-wall-secondbox-item-title
+  margin-bottom: 55px
   p
     font-size: 42px
     font-weight: 700
@@ -137,8 +140,27 @@
     line-height: 50px
     color: $art-wall-orange
     border: 3px solid $body-bg-active
-    @include border-radius(15px)
-    margin: 20px 60px
+    @include border-radius(10px)
+    margin: 20px 100px
+
+.art-wall-firstbox-button
+  padding: 10px 15px
+  display: inline-block
+  background-color: $art-wall-orange
+  color: $text-black
+  @include border-radius(10px)
+  text-decoration: none
+  transition: all 0.2s
+  font-size: 27px
+  letter-spacing: 1px
+  line-height: 32px
+  border: 1px solid $button-color
+  font-weight: 700
+  margin-top: 82px
+  &:hover
+    text-decoration: none
+    color: lighten($text-black, 20%)
+    border: 1px solid $art-wall-orange
 
 .art-wall-secondbox-item-title
   p
@@ -150,36 +172,44 @@
     display: flex
     &-first, &-second
       @include border-radius(15px)
-      width: 420px
       height: 610px
       background-color: $text-grey-body
-      margin-right: 30px
-
+      margin-top: -64px
+      margin-right: 50px
       &-row
+        margin-top: 37px
         display: flex
+        width: 400px
         &-img
           width: 65px
           height: 65px
           overflow: hidden
           background: $art-wall-imgbg
+          margin-top: 8px
+          margin-left: 25px
           padding-top: 7px
           border-radius: 50%
           -moz-border-radius: 50%
           -webkit-border-radius: 50%
-
         p
+          text-align: left
           &:first-child
             font-size: 23px
             letter-spacing: 0
             line-height: 27px
             color: $art-wall-orange
+            margin-left: 15px
+
           &:last-child
+            margin: -10px
             font-size: 17px
             letter-spacing: 0
             line-height: 25px
             color: $art-wall-grey
+            margin-left: 15px
 
 .art-wall-secondBox
+  padding: 10px 20px 6px 50px
   background-color: $artist-profile_menu
   h2
     font-size: 45px
@@ -187,6 +217,7 @@
     line-height: 54px
     color: $text-white
   p
+    padding-top: 4px
     font-size: 21px
     letter-spacing: 0
     line-height: 29px
@@ -201,6 +232,7 @@
 
 .art-wall-secondBox-img
   background-color: $header-bg
+  padding: 20px
 
 .art-wall-midImg
   margin: 30px
@@ -208,51 +240,87 @@
     @include border-radius(15px)
 
 .art-wall-thirdBox
+  padding: 60px 10px 70px 20px
   background-color: $header-bg
+  img
+    height: 650px
+    width: 360px
 
   p
+    margin-left: 30px
+    padding-right: 10px
     &:first-child
+      margin-top: 14px
       font-size: 42px
       letter-spacing: 1px
       line-height: 29px
       color: $text-white
 
     &:nth-child(2)
+      margin-top: 40px
       font-size: 71px
       font-weight: 700
       letter-spacing: 1px
       line-height: 50px
       color: $art-wall-orange
 
-    &:last-child
+    &:nth-child(3)
+      margin-top: 35px
       width: 467px
-      height: 501px
+      height: 400px
       font-size: 21px
       letter-spacing: 0
       line-height: 29px
       color: $art-wall-grey
 
-    a
-      font-size: 27px
-      letter-spacing: 1px
-      line-height: 32px
-      color: $text-black
+  a
+    margin-left: 35px
+    font-size: 27px
+    letter-spacing: 1px
+    line-height: 32px
+    color: $text-black
+
+.art-wall-thirdBox-button
+  padding: 11px 15px
+  display: inline-block
+  background-color: $art-wall-orange
+  color: $text-black
+  @include border-radius(10px)
+  text-decoration: none
+  transition: all 0.2s
+  font-size: 27px
+  letter-spacing: 1px
+  line-height: 32px
+  border: 1px solid $button-color
+  margin-top: 10px
+  &:hover
+    text-decoration: none
+    color: lighten($text-black, 20%)
+    border: 1px solid $art-wall-orange
 
 .art-wall-forthBox
+  padding-top: 130px
+  padding-bottom: 120px
   background-color: $art-wall-fourthBg
   p
+    padding-left: 30px
     &:first-child
+      padding-top: 35px
+      font-weight: 700
       font-size: 56px
       letter-spacing: 1px
       line-height: 63px
       color: $art-wall-orange
 
-    &:last-child
+    &:nth-child(2)
       width: 561px
       font-size: 21px
       letter-spacing: 0
       line-height: 29px
       color: $art-wall-imgbg
+
+  &-img
+    padding-left: 30px
 
 .art-wall-subscribe
   padding-left: 30px
@@ -263,51 +331,52 @@
   p
     &:first-child
       font-size: 56px
+      font-weight: 700
       letter-spacing: 1px
       line-height: 63px
       color: $art-wall-orange
 
     &:last-child
-      width: 778px
+      width: 778px /* 700 */
       font-size: 21px
       letter-spacing: 0
       line-height: 29px
       color: $art-wall-imgbg
 
   input
-    @include border-radius(25px)
-    background-color: $body-menu
-    font-size: 23px
-    letter-spacing: 2px
-    line-height: 34px
-    color: $button-color
-    padding-left: 35px
-    padding-top: 20px
-    padding-bottom: 20px
-    margin-right: 20px
-    width: 535px
-    border: 1px solid $text-grey-nav
+    background-color: $art-wall-fourthBg
+    color: $text-white
+    padding-left: 20px
+    padding-top: 26px
+    padding-bottom: 26px
+    margin-right: -5px
+    width: 490px
+    border: 1px solid $text-white
+    font-size: 32px
+    letter-spacing: 1px
+    line-height: 35px
 
   &_btn
-    padding: 20px 55px
+    padding-top: 20px
+    padding-bottom: 25px
+    padding-right: 60px
+    padding-left: 60px
     display: inline-block
-    background-color: $button-color
-    color: $text-white
-    @include border-radius(25px)
+    background-color: $art-wall-orange
+    color: $text-black
     text-decoration: none
     transition: all 0.2s
-    font-size: 23px
-    letter-spacing: 2px
-    line-height: 34px
-    font-weight: 700
-    margin-bottom: 165px
-    border: 1px solid $button-color
+    // margin-bottom: 165px
+    border: 1px solid $art-wall-orange
+    font-size: 38px
+    letter-spacing: 1px
+    line-height: 42px
 
     &:hover
       text-decoration: none
-      background-color: lighten($text-black, 20%)
-      color: darken($text-white, 20%)
-      border: 1px solid $text-grey-nav
+      background-color: lighten($art-wall-orange, 5%)
+      color: lighten($text-black, 20%)
+      border: 1px solid $text-white
 
 
 
