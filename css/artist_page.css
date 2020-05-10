@@ -1,0 +1,108 @@
+.masthead-artist {
+  height: 490px;
+  background-image: url("../img/artist-page/artist-page-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px; }
+  .masthead-artist a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; }
+    .masthead-artist a:hover {
+      text-decoration: none;
+      color: #cccccc;
+      border: 1px solid #ffc608; }
+
+.artist-page_TopMenu {
+  margin-top: 10px; }
+  .artist-page_TopMenu li a:hover::after {
+    transform: translateY(15px) scale(1) !important; }
+  .artist-page_TopMenu_right {
+    margin-top: 15px; }
+
+.artist-page_TopMenu_shell {
+  margin-top: -25px !important;
+  margin-bottom: 10px; }
+
+.artist-profile_top h1 {
+  font-weight: 400; }
+
+.artist-page_top-bg {
+  background-color: #262626; }
+.artist-page_bg {
+  background-color: #000000; }
+
+.artist-page_items {
+  font-size: 46px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  color: #959595; }
+  .artist-page_items a {
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fec608; }
+
+.artist-page_title p:first-child {
+  font-weight: 700;
+  font-size: 61px;
+  letter-spacing: 1px;
+  line-height: 55px;
+  color: #ffffff; }
+.artist-page_title p:last-child {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #959595; }
+
+.artist-page_bio {
+  background-color: #252525; }
+  .artist-page_bio p:first-child {
+    font-size: 31px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #959595; }
+  .artist-page_bio p:last-child {
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 29px;
+    color: #959595; }
+
+.artist-page_lines {
+  border-top: 1px solid #585857;
+  margin-top: 30px; }
+  .artist-page_lines img {
+    margin-top: -30px;
+    margin-left: 30px; }
+
+.artist-page_pref p:first-child {
+  font-size: 31px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595; }
+.artist-page_pref p:last-child {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 29px;
+  color: #ffffff; }
+
+.artist-page_stats p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21px;
+  color: #959595; }
+.artist-page_stats p:last-child {
+  font-size: 63px;
+  letter-spacing: 1px;
+  line-height: 29px;
+  color: #ffffff; }
+
+/*# sourceMappingURL=artist_page.css.map */

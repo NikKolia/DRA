@@ -1,0 +1,128 @@
+@import "colors"
+@import "vars"
+
+.masthead-artist
+  height: 490px
+  background-image: url('../img/artist-page/artist-page-header.jpg')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  padding-top: 30px
+  a
+    border: 1px solid $text-white
+    font-size: 10px
+    letter-spacing: 1px
+    line-height: 16px
+    color: $text-white
+    padding: 2px 5px
+    @include border-radius(10px)
+    &:hover
+      text-decoration: none
+      color: darken($text-white, 20%)
+      border: 1px solid $body-bg-active
+
+.artist-page_TopMenu
+  margin-top: 10px
+  li
+    a
+      &:hover
+        &::after
+          transform: translateY(15px) scale(1) !important
+  &_right
+    margin-top: 15px
+
+.artist-page_TopMenu_shell
+  margin-top: -25px !important
+  margin-bottom: 10px
+
+.artist-profile_top
+  h1
+    font-weight: 400
+
+.artist-page
+  &_top-bg
+    background-color: $artist-profile_menu
+
+  &_bg
+    background-color: $artist-page-bg
+
+.artist-page_items
+  font-size: 46px
+  letter-spacing: 1px
+  line-height: 42px
+  color: $artist-page-text
+  a
+    font-size: 27px
+    letter-spacing: 1px
+    line-height: 24px
+    color: $art-wall-orange
+
+.artist-page_title
+  p
+    &:first-child
+      font-weight: 700
+      font-size: 61px
+      letter-spacing: 1px
+      line-height: 55px
+      color: $text-white
+
+    &:last-child
+      font-size: 27px
+      letter-spacing: 1px
+      line-height: 24px
+      color: $artist-page-text
+
+.artist-page_bio
+  background-color: $artist-page-bioBg
+  p
+    &:first-child
+      font-size: 31px
+      letter-spacing: 1px
+      line-height: 27px
+      color: $artist-page-text
+
+    &:last-child
+      font-size: 21px
+      letter-spacing: 0
+      line-height: 29px
+      color: $artist-page-text
+
+.artist-page_lines
+  border-top: 1px solid $artist-page-line
+  margin-top: 30px
+  img
+    margin-top: -30px
+    margin-left: 30px
+
+.artist-page_pref
+  p
+    &:first-child
+      font-size: 31px
+      letter-spacing: 1px
+      line-height: 27px
+      color: $artist-page-text
+
+    &:last-child
+      font-size: 25px
+      letter-spacing: 1px
+      line-height: 29px
+      color: $text-white
+
+.artist-page_stats
+  p
+    &:first-child
+      font-size: 24px
+      font-weight: 700
+      letter-spacing: 0
+      line-height: 21px
+      color: $artist-page-text
+
+    &:last-child
+      font-size: 63px
+      letter-spacing: 1px
+      line-height: 29px
+      color: $text-white
+
+
+
+

@@ -1,0 +1,183 @@
+.profile_top h1 {
+  font-weight: 700 !important; }
+
+.profile_bg {
+  background-color: #000000;
+  padding-bottom: 50px; }
+
+.profile_orange {
+  color: #ffc608 !important; }
+
+.profile {
+  margin-top: -100px; }
+  .profile_left {
+    background-color: #252525;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-top: 80px;
+    padding: 20px; }
+    .profile_left img {
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px; }
+    .profile_left_top img {
+      margin-top: -80px;
+      border: 2px solid #ffffff;
+      height: 127px;
+      width: 127px; }
+    .profile_left_top h1 {
+      font-size: 25px;
+      letter-spacing: 1px;
+      line-height: 25px;
+      color: #ffc608; }
+    .profile_left_top p {
+      font-size: 17px;
+      letter-spacing: 0;
+      line-height: 25px;
+      color: #a1a1a1; }
+    .profile_left_item {
+      font-size: 17px;
+      letter-spacing: 0;
+      line-height: 25px;
+      color: #a1a1a1; }
+    .profile_left_view {
+      font-size: 13px;
+      letter-spacing: 0;
+      line-height: 25px;
+      color: #f5be0a;
+      text-align: right; }
+  .profile_center {
+    background-color: #252525;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; }
+    .profile_center h2 {
+      padding-left: 15px;
+      font-size: 25px;
+      letter-spacing: 1px;
+      line-height: 33px;
+      color: #959595; }
+    .profile_center p {
+      color: #959595; }
+    .profile_center_top {
+      padding: 15px; }
+      .profile_center_top img {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        margin-right: 10px; }
+      .profile_center_top p {
+        padding-top: 20px;
+        padding-right: 5px;
+        margin-bottom: 0;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 16px; }
+    .profile_center_main {
+      padding: 15px; }
+      .profile_center_main img {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        margin-right: 10px; }
+      .profile_center_main p {
+        margin-bottom: 0; }
+      .profile_center_main_points {
+        width: 100%;
+        text-align: right; }
+        .profile_center_main_points img {
+          margin-right: 0; }
+      .profile_center_main_whois {
+        width: 180px; }
+    .profile_center_mainText {
+      padding: 15px; }
+    .profile_center_posted {
+      padding: 15px;
+      font-size: 13px;
+      font-style: italic;
+      letter-spacing: 0;
+      line-height: 13px; }
+    .profile_center_shared {
+      margin-left: 60px;
+      padding: 15px;
+      justify-content: flex-end; }
+      .profile_center_shared img {
+        width: 12px;
+        height: 12px;
+        vertical-align: middle;
+        margin-right: 7px;
+        margin-top: 2px; }
+      .profile_center_shared a {
+        padding-right: 20px;
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 16px;
+        color: #959595; }
+        .profile_center_shared a:last-child {
+          padding-right: 0; }
+        .profile_center_shared a:hover {
+          text-decoration: none;
+          color: #bfbfbf; }
+  .profile_right {
+    background-color: #252525;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; }
+
+.profile_textBottom {
+  margin-left: 60px;
+  padding: 15px; }
+
+.posted_bottom {
+  padding: 15px;
+  width: 100%;
+  text-align: right; }
+  .posted_bottom p {
+    padding: 7px 0 0 0;
+    margin: 0; }
+
+.profile_moreComment {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 14px;
+  color: #ffc608 !important; }
+
+textarea {
+  width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #111111;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 33px;
+  color: #959595;
+  border: 1px solid #626262;
+  padding-left: 15px; }
+
+.CommentButton {
+  padding: 10px 15px;
+  display: inline-block;
+  background-color: #ffc608;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 5px;
+  color: #000000;
+  border: 1px solid #252525;
+  margin: 20px 20px 20px 70px; }
+  .CommentButton img {
+    margin-right: 7px;
+    margin-bottom: 3px; }
+  .CommentButton:hover {
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #ffc608; }
+
+/*# sourceMappingURL=profile.css.map */

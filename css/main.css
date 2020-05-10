@@ -715,6 +715,361 @@
   border: 1px solid #ffffff;
 }
 
+.masthead-artist {
+  height: 490px;
+  background-image: url("../img/artist-page/artist-page-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.masthead-artist a {
+  border: 1px solid #ffffff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 2px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.masthead-artist a:hover {
+  text-decoration: none;
+  color: #cccccc;
+  border: 1px solid #ffc608;
+}
+
+.artist-page_TopMenu {
+  margin-top: 10px;
+}
+.artist-page_TopMenu li a:hover::after {
+  -webkit-transform: translateY(15px) scale(1) !important;
+          transform: translateY(15px) scale(1) !important;
+}
+.artist-page_TopMenu_right {
+  margin-top: 15px;
+}
+
+.artist-page_TopMenu_shell {
+  margin-top: -25px !important;
+  margin-bottom: 10px;
+}
+
+.artist-profile_top h1 {
+  font-weight: 400;
+}
+
+.artist-page_top-bg {
+  background-color: #262626;
+}
+.artist-page_bg {
+  background-color: #000000;
+}
+
+.artist-page_items {
+  font-size: 46px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  color: #959595;
+}
+.artist-page_items a {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #fec608;
+}
+
+.artist-page_title p:first-child {
+  font-weight: 700;
+  font-size: 61px;
+  letter-spacing: 1px;
+  line-height: 55px;
+  color: #ffffff;
+}
+.artist-page_title p:last-child {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #959595;
+}
+
+.artist-page_bio {
+  background-color: #252525;
+}
+.artist-page_bio p:first-child {
+  font-size: 31px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+}
+.artist-page_bio p:last-child {
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 29px;
+  color: #959595;
+}
+
+.artist-page_lines {
+  border-top: 1px solid #585857;
+  margin-top: 30px;
+}
+.artist-page_lines img {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+.artist-page_pref p:first-child {
+  font-size: 31px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+}
+.artist-page_pref p:last-child {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.artist-page_stats p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21px;
+  color: #959595;
+}
+.artist-page_stats p:last-child {
+  font-size: 63px;
+  letter-spacing: 1px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.profile_top h1 {
+  font-weight: 700 !important;
+}
+
+.profile_bg {
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+
+.profile_orange {
+  color: #ffc608 !important;
+}
+
+.profile {
+  margin-top: -100px;
+}
+.profile_left {
+  background-color: #252525;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-top: 80px;
+  padding: 20px;
+}
+.profile_left img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.profile_left_top img {
+  margin-top: -80px;
+  border: 2px solid #ffffff;
+  height: 127px;
+  width: 127px;
+}
+.profile_left_top h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #ffc608;
+}
+.profile_left_top p {
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #a1a1a1;
+}
+.profile_left_item {
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #a1a1a1;
+}
+.profile_left_view {
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #f5be0a;
+  text-align: right;
+}
+.profile_center {
+  background-color: #252525;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.profile_center h2 {
+  padding-left: 15px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #959595;
+}
+.profile_center p {
+  color: #959595;
+}
+.profile_center_top {
+  padding: 15px;
+}
+.profile_center_top img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  margin-right: 10px;
+}
+.profile_center_top p {
+  padding-top: 20px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.profile_center_main {
+  padding: 15px;
+}
+.profile_center_main img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  margin-right: 10px;
+}
+.profile_center_main p {
+  margin-bottom: 0;
+}
+.profile_center_main_points {
+  width: 100%;
+  text-align: right;
+}
+.profile_center_main_points img {
+  margin-right: 0;
+}
+.profile_center_main_whois {
+  width: 180px;
+}
+.profile_center_mainText {
+  padding: 15px;
+}
+.profile_center_posted {
+  padding: 15px;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 13px;
+}
+.profile_center_shared {
+  margin-left: 60px;
+  padding: 15px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.profile_center_shared img {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: 2px;
+}
+.profile_center_shared a {
+  padding-right: 20px;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  color: #959595;
+}
+.profile_center_shared a:last-child {
+  padding-right: 0;
+}
+.profile_center_shared a:hover {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.profile_right {
+  background-color: #252525;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.profile_textBottom {
+  margin-left: 60px;
+  padding: 15px;
+}
+
+.posted_bottom {
+  padding: 15px;
+  width: 100%;
+  text-align: right;
+}
+.posted_bottom p {
+  padding: 7px 0 0 0;
+  margin: 0;
+}
+
+.profile_moreComment {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 14px;
+  color: #ffc608 !important;
+}
+
+textarea {
+  width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #111111;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 33px;
+  color: #959595;
+  border: 1px solid #626262;
+  padding-left: 15px;
+}
+
+.CommentButton {
+  padding: 10px 15px;
+  display: inline-block;
+  background-color: #ffc608;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 5px;
+  color: #000000;
+  border: 1px solid #252525;
+  margin: 20px 20px 20px 70px;
+}
+.CommentButton img {
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+.CommentButton:hover {
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #ffc608;
+}
+
 .center {
   text-align: center;
 }

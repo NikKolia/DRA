@@ -1,0 +1,191 @@
+@import "colors"
+@import "vars"
+
+.profile_top
+  h1
+    font-weight: 700 !important
+
+.profile_bg
+  background-color: $profile-bg
+  padding-bottom: 50px
+
+.profile_orange
+  color: $profile-orange !important
+
+.profile
+  margin-top: -100px
+
+  &_left
+    background-color: $profile-sectionBg
+    @include border-radius(5px)
+    margin-top: 80px
+    padding: 20px
+
+    img
+      @include border-radius(5px)
+
+    &_top
+      img
+        margin-top: -80px
+        border: 2px solid $text-white
+        height: 127px
+        width: 127px
+
+      h1
+        font-size: 25px
+        letter-spacing: 1px
+        line-height: 25px
+        color: $profile-orange
+
+      p
+        font-size: 17px
+        letter-spacing: 0
+        line-height: 25px
+        color: $profile-textLeft
+
+    &_item
+      font-size: 17px
+      letter-spacing: 0
+      line-height: 25px
+      color: $profile-textLeft
+
+    &_view
+      font-size: 13px
+      letter-spacing: 0
+      line-height: 25px
+      color: $profile-orange2
+      text-align: right
+
+  &_center
+    background-color: $profile-sectionBg
+    @include border-radius(5px)
+    h2
+      padding-left: 15px
+      font-size: 25px
+      letter-spacing: 1px
+      line-height: 33px
+      color: $profile-text
+
+    p
+      color: $profile-text
+
+    &_top
+      padding: 15px
+
+      img
+        @include border-radius(30px)
+        margin-right: 10px
+
+      p
+        padding-top: 20px
+        padding-right: 5px
+        margin-bottom: 0
+        font-size: 16px
+        letter-spacing: 0
+        line-height: 16px
+
+    &_main
+      padding: 15px
+
+      img
+        @include border-radius(30px)
+        margin-right: 10px
+
+      p
+        margin-bottom: 0
+
+      &_points
+        width: 100%
+        text-align: right
+        img
+          margin-right: 0
+
+      &_whois
+        width: 180px
+
+    &_mainText
+      padding: 15px
+
+    &_posted
+      padding: 15px
+      font-size: 13px
+      font-style: italic
+      letter-spacing: 0
+      line-height: 13px
+
+    &_shared
+      margin-left: 60px
+      padding: 15px
+      justify-content: flex-end
+      img
+        width: 12px
+        height: 12px
+        vertical-align: middle
+        margin-right: 7px
+        margin-top: 2px
+      a
+        padding-right: 20px
+        margin: 0
+        font-size: 16px
+        letter-spacing: 0
+        line-height: 16px
+        color: $profile-text
+        &:last-child
+          padding-right: 0
+        &:hover
+          text-decoration: none
+          color: darken($text-white, 25%)
+
+  &_right
+    background-color: $profile-sectionBg
+    @include border-radius(5px)
+
+.profile_textBottom
+  margin-left: 60px
+  padding: 15px
+
+.posted_bottom
+  padding: 15px
+  width: 100%
+  text-align: right
+  p
+    padding: 7px 0 0 0
+    margin: 0
+
+.profile_moreComment
+  font-size: 16px
+  letter-spacing: 0
+  line-height: 14px
+  color: $profile-orange !important
+
+textarea
+  width: 80%
+  @include border-radius(5px)
+  background-color: $profile-textareaBg
+  font-size: 13px
+  letter-spacing: 0
+  line-height: 33px
+  color: $profile-text
+  border: 1px solid $text-grey-nav
+  padding-left: 15px
+
+.CommentButton
+  padding: 10px 15px
+  display: inline-block
+  background-color: $profile-orange
+  @include border-radius(12px)
+  text-decoration: none
+  transition: all 0.2s
+  font-size: 16px
+  letter-spacing: 0
+  line-height: 5px
+  color: $profile-bg
+  border: 1px solid $profile-sectionBg
+  margin: 20px 20px 20px 70px
+  img
+    margin-right: 7px
+    margin-bottom: 3px
+  &:hover
+    text-decoration: none
+    color: lighten($text-black, 20%)
+    border: 1px solid $profile-orange
