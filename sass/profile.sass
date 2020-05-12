@@ -3,39 +3,48 @@
 
 .profile_top
   h1
-    font-weight: 700 !important
+    font-size: 69px
+    letter-spacing: 1px
+    line-height: 62px
+    margin-top: 15px
 
 .profile_bg
   background-color: $profile-bg
-  padding-bottom: 50px
+  padding-bottom: 100px
+
+.profile_width
+  max-width: 1400px
 
 .profile_orange
   color: $profile-orange !important
 
+.profile-top-nav_btn
+  top: 300px !important
+  right: 55px !important
+
 .profile
-  margin-top: -100px
+  margin-top: -154px
 
   &_left
     background-color: $profile-sectionBg
     @include border-radius(5px)
-    margin-top: 80px
+    margin-top: 77px
     padding: 20px
-
-    img
-      @include border-radius(5px)
 
     &_top
       img
-        margin-top: -80px
-        border: 2px solid $text-white
-        height: 127px
-        width: 127px
+        margin-top: -98px
+        border: 4px solid $text-white
+        height: 145px
+        width: 145px
 
-      h1
+      h2
         font-size: 25px
         letter-spacing: 1px
         line-height: 25px
         color: $profile-orange
+        margin-top: 19px
+        margin-bottom: 2px
 
       p
         font-size: 17px
@@ -44,22 +53,33 @@
         color: $profile-textLeft
 
     &_item
-      font-size: 17px
-      letter-spacing: 0
-      line-height: 25px
-      color: $profile-textLeft
+      margin-top: 49px
+      padding-bottom: 20px
+      p
+        font-size: 17px
+        letter-spacing: 0
+        line-height: 25px
+        color: $profile-textLeft
+        margin-bottom: 7px
+      img
+        @include border-radius(5px)
+
 
     &_view
-      font-size: 13px
-      letter-spacing: 0
-      line-height: 25px
-      color: $profile-orange2
       text-align: right
+      a
+        font-size: 13px
+        letter-spacing: 0
+        line-height: 25px
+        color: $profile-orange2
+        &:hover
+          text-decoration: none
+          color: darken($text-orange, 15%)
 
   &_center
     background-color: $profile-sectionBg
     @include border-radius(5px)
-    h2
+    h3
       padding-left: 15px
       font-size: 25px
       letter-spacing: 1px
@@ -70,7 +90,7 @@
       color: $profile-text
 
     &_top
-      padding: 15px
+      padding: 10px
 
       img
         @include border-radius(30px)
@@ -107,16 +127,17 @@
       padding: 15px
 
     &_posted
-      padding: 15px
+      padding: 0 15px 15px 20px
+      margin-top: -20px
       font-size: 13px
       font-style: italic
       letter-spacing: 0
       line-height: 13px
 
     &_shared
-      margin-left: 60px
       padding: 15px
       justify-content: flex-end
+      margin-top: -18px
       img
         width: 12px
         height: 12px
@@ -135,6 +156,8 @@
         &:hover
           text-decoration: none
           color: darken($text-white, 25%)
+      &_bottom
+        margin-left: 65px
 
   &_right
     background-color: $profile-sectionBg
@@ -142,21 +165,26 @@
 
 .profile_textBottom
   margin-left: 60px
-  padding: 15px
+  margin-top: -5px
+  padding: 0 15px 15px 15px
 
 .posted_bottom
-  padding: 15px
+  padding: 0 15px 0 0
   width: 100%
   text-align: right
   p
-    padding: 7px 0 0 0
     margin: 0
 
 .profile_moreComment
-  font-size: 16px
-  letter-spacing: 0
-  line-height: 14px
-  color: $profile-orange !important
+  margin-top: 27px
+  a
+    font-size: 16px
+    letter-spacing: 0
+    line-height: 14px
+    color: $profile-orange
+    &:hover
+      text-decoration: none
+      color: darken($text-orange, 15%)
 
 textarea
   width: 80%
@@ -170,7 +198,7 @@ textarea
   padding-left: 15px
 
 .CommentButton
-  padding: 10px 15px
+  padding: 9px 15px
   display: inline-block
   background-color: $profile-orange
   @include border-radius(12px)
@@ -181,7 +209,7 @@ textarea
   line-height: 5px
   color: $profile-bg
   border: 1px solid $profile-sectionBg
-  margin: 20px 20px 20px 70px
+  margin: -5px 20px 75px 70px
   img
     margin-right: 7px
     margin-bottom: 3px
@@ -189,3 +217,34 @@ textarea
     text-decoration: none
     color: lighten($text-black, 20%)
     border: 1px solid $profile-orange
+
+.profile_right_top
+  p
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 25px
+    color: $profile-orange
+    margin-top: -2px
+    margin-bottom: 10px
+
+.profile_right
+  padding: 30px 15px 10px 15px
+  &_text
+    pointer-events: none
+    margin-top: -55px
+    margin-bottom: 35px
+    p
+      color: $text-white
+      &:first-child
+        font-size: 16px
+        letter-spacing: 0
+        line-height: 13px
+        margin-bottom: 10px
+      &:last-child
+        font-size: 12px
+        letter-spacing: 0
+        line-height: 13px
+
+  img
+    &:hover
+      @include box-shadow(0, 0, 25px, 30px, rgba(0, 0, 0, 0.25))
