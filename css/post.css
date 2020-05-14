@@ -1,0 +1,14 @@
+.post-page_bg {
+  background-color: #000000;
+}
+
+.postPageWidth {
+  max-width: 1370px;
+}
+
+h2, h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+}

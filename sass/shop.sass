@@ -1,0 +1,50 @@
+@import "colors"
+@import "vars"
+
+.shop-page_bg
+  background-color: $post-bg
+
+.shopPageWidth
+  max-width: 1500px
+
+h2, h3
+  font-size: 30px
+  letter-spacing: 1px
+  line-height: 27px
+  color: $profile-text
+  padding: 40px 0 20px 20px
+
+.shopPage
+  img:hover
+    cursor: pointer
+  img
+    margin-right: 25px
+    width: 350px /* 415px */
+    height: 350px /* 415px */
+    &:last-child
+      margin-right: 0
+    &:hover
+      @include box-shadow(0, 0, 15px, 20px, rgba(255,255, 255, 0.15))
+  &_text
+    display: flex
+    justify-content: space-between
+    padding: 25px /* 30px */
+    pointer-events: none
+    margin-top: -100px
+
+    p
+      color: $text-white
+      &:first-child
+        font-size: 42px
+        letter-spacing: 1px
+        line-height: 53px
+
+      &:nth-child(2)
+        font-size: 42px
+        letter-spacing: 1px
+        line-height: 53px
+        font-weight: 700
+        padding-left: 35px
+
+.postPageImg
+  padding-bottom: 30px

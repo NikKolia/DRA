@@ -1,0 +1,56 @@
+.post-page_bg {
+  background-color: #000000;
+}
+
+.postPageWidth {
+  max-width: 1500px;
+}
+
+h2, h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+  padding: 40px 0 20px 20px;
+}
+
+.postPage img:hover {
+  cursor: pointer;
+}
+.postPage img {
+  margin-right: 25px;
+  width: 350px;
+  height: 350px;
+}
+.postPage img:last-child {
+  margin-right: 0;
+}
+.postPage img:hover {
+  -webkit-box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+}
+.postPage_text {
+  padding: 25px;
+  pointer-events: none;
+  margin-top: -250px;
+  margin-bottom: 35px;
+}
+.postPage_text p {
+  color: #ffffff;
+}
+.postPage_text p:first-child {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 53px;
+}
+.postPage_text p:nth-child(2) {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 43px;
+}
+.postPage_text p:last-child {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}

@@ -224,11 +224,14 @@
     color: $art-wall-grey
 
   &-txtSecond
-    p
+    a
       font-size: 27px
       letter-spacing: 1px
       line-height: 33px
       color: $art-wall-orange
+      &:hover
+        text-decoration: none
+        color: lighten($art-wall-orange, 20%)
 
 .art-wall-secondBox-img
   background-color: $header-bg

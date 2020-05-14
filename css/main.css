@@ -543,11 +543,15 @@
   line-height: 29px;
   color: #acacac;
 }
-.art-wall-secondBox-txtSecond p {
+.art-wall-secondBox-txtSecond a {
   font-size: 27px;
   letter-spacing: 1px;
   line-height: 33px;
   color: #fec608;
+}
+.art-wall-secondBox-txtSecond a:hover {
+  text-decoration: none;
+  color: #fedd6e;
 }
 
 .art-wall-secondBox-img {
@@ -726,7 +730,7 @@
   background-position: center;
   background-repeat: no-repeat;
   border-top: 2px solid #484848;
-  padding-top: 90px;
+  padding-top: 30px;
 }
 .masthead-artist a {
   border: 1px solid #ffffff;
@@ -829,6 +833,9 @@
   background-color: #000000;
 }
 
+.artist-page {
+  padding-top: 60px;
+}
 .artist-page img {
   margin-top: 23px;
   height: 250px;
@@ -954,6 +961,10 @@
 }
 .artist-page_imgs img {
   margin-bottom: 100px;
+}
+
+.artist-footer {
+  background-image: url("../img/artist-footer.jpg") !important;
 }
 
 .profile_top h1 {
@@ -1250,6 +1261,125 @@ textarea {
 .profile_right img:hover {
   -webkit-box-shadow: 0 0 25px 30px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 25px 30px rgba(0, 0, 0, 0.25);
+}
+
+.post-page_bg {
+  background-color: #000000;
+}
+
+.postPageWidth {
+  max-width: 1500px;
+}
+
+h2, h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+  padding: 40px 0 20px 20px;
+}
+
+.postPage img:hover {
+  cursor: pointer;
+}
+.postPage img {
+  margin-right: 25px;
+  width: 350px;
+  height: 350px;
+}
+.postPage img:last-child {
+  margin-right: 0;
+}
+.postPage img:hover {
+  -webkit-box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+}
+.postPage_text {
+  padding: 25px;
+  pointer-events: none;
+  margin-top: -250px;
+  margin-bottom: 35px;
+}
+.postPage_text p {
+  color: #ffffff;
+}
+.postPage_text p:first-child {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 53px;
+}
+.postPage_text p:nth-child(2) {
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 43px;
+}
+.postPage_text p:last-child {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.shop-page_bg {
+  background-color: #000000;
+}
+
+.shopPageWidth {
+  max-width: 1500px;
+}
+
+h2, h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: #959595;
+  padding: 40px 0 20px 20px;
+}
+
+.shopPage img:hover {
+  cursor: pointer;
+}
+.shopPage img {
+  margin-right: 25px;
+  width: 350px;
+  height: 350px;
+}
+.shopPage img:last-child {
+  margin-right: 0;
+}
+.shopPage img:hover {
+  -webkit-box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 15px 20px rgba(255, 255, 255, 0.15);
+}
+.shopPage_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+  pointer-events: none;
+  margin-top: -100px;
+}
+.shopPage_text p {
+  color: #ffffff;
+}
+.shopPage_text p:first-child {
+  font-size: 42px;
+  letter-spacing: 1px;
+  line-height: 53px;
+}
+.shopPage_text p:nth-child(2) {
+  font-size: 42px;
+  letter-spacing: 1px;
+  line-height: 53px;
+  font-weight: 700;
+  padding-left: 35px;
+}
+
+.postPageImg {
+  padding-bottom: 30px;
 }
 
 .center {
