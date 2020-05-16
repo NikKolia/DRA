@@ -1,0 +1,221 @@
+@import "colors"
+@import "vars"
+
+.print-top-bg
+  background-color: $print-top-bg
+
+.breadcrumbs
+  p
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 33px
+    color: $breadcrumbs
+
+.printShop
+  background-color: $printShopBg
+  h2
+    font-size: 56px
+    letter-spacing: 1px
+    line-height: 74px
+    color: $text-white
+
+.printShopArtist
+  img
+    @include border-radius(30px)
+    margin-right: 10px
+  p
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 33px
+    color: $text-white
+
+.printShopPrice
+  font-size: 25px
+  letter-spacing: 1px
+  line-height: 33px
+  color: $text-orange
+
+.printShopSelector
+  p
+    font-size: 19px
+    letter-spacing: 0
+    line-height: 26px
+    color: $text-orange
+
+// Switcher
+.switch
+  position: relative
+  display: inline-block
+  width: 60px
+  height: 34px
+
+.switch input
+  display: none
+
+.slider
+  position: absolute
+  cursor: pointer
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-color: #ccc
+  -webkit-transition: .4s
+  transition: .4s
+
+.slider:before
+  position: absolute
+  content: ""
+  height: 26px
+  width: 26px
+  left: 4px
+  bottom: 4px
+  background-color: white
+  -webkit-transition: .4s
+  transition: .4s
+
+input:checked + .slider
+  background-color: #2196F3
+
+input:focus + .slider
+  box-shadow: 0 0 1px #2196F3
+
+input:checked + .slider:before
+  -webkit-transform: translateX(26px)
+  -ms-transform: translateX(26px)
+  transform: translateX(26px)
+
+/* Rounded sliders */
+.slider.round
+  border-radius: 34px
+
+.slider.round:before
+  border-radius: 50%
+
+.printShopSizes
+  a
+    font-size: 18px
+    letter-spacing: 0
+    line-height: 24px
+    color: $printSize
+    border: 1px solid $printSize
+    display: block
+    padding: 5px 15px
+    &:hover
+      color: $printSizeHover
+      border: 1px solid $printSizeHover
+      text-decoration: none
+
+.printShopBtn
+  img
+    padding-right: 20px
+  a
+    background-color: $text-orange
+    padding: 12px 38px
+    display: inline-block
+    color: $text-black
+    @include border-radius(15px)
+    transition: all 0.2s
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 33px
+    border: 2px solid $text-orange
+    width: 100%
+    text-align: center
+
+    &:hover
+      text-decoration: none
+      color: lighten($text-black, 20%)
+      border: 2px solid lighten($text-orange, 30%)
+
+.printShopShips
+  p
+    font-size: 14px
+    letter-spacing: 0
+    line-height: 19px
+    color: $text-white
+    margin: 0
+
+.printAvaliab
+  font-size: 19px
+  letter-spacing: 0
+  line-height: 26px
+  color: $text-orange
+
+.printOthers
+  p
+    color: $text-orange
+    &:first-child
+      font-size: 15px
+      letter-spacing: 0
+      line-height: 21px
+    &:nth-child(2)
+      font-size: 17px
+      letter-spacing: 0
+      line-height: 23px
+
+input[type="url"]::-moz-placeholder
+  color: $printInputText
+
+input[type="url"]::-webkit-input-placeholder
+  color: $printInputText
+
+input[type="url"]:-ms-input-placeholder
+  color: $printInputText
+
+input[type="url"]::-ms-input-placeholder
+  color: $printInputText
+
+input[type="url"]::placeholder
+  color: $printInputText
+
+.inputUrl
+  input
+    background-color: $printInputUrl
+    font-size: 17px
+    letter-spacing: 0
+    line-height: 22px
+    color: $printInputText
+    padding-left: 8px
+    padding-top: 5px
+    padding-bottom: 8px
+    width: 100%
+    border: none
+
+.printReport
+  p
+    margin: 0
+    font-size: 14px
+    letter-spacing: 0
+    line-height: 19px
+    color: $printReport
+
+.print-bg
+  background-color: $printBg
+
+.printPrint
+  font-size: 50px
+  color: $text-white
+
+.printPosters
+  h3
+    font-size: 79px
+    font-weight: 700
+    color: $text-white
+  img
+    width: 1000px
+  p
+    width: 1000px
+
+.printFeatures
+  h4, h5
+    font-weight: 700
+    font-size: 50px
+    color: $text-white
+  p
+    font-size: 33px
+    color: $printFeatures
+
+.print-bg-bottom
+  background-color: $print-bottom-bg
+

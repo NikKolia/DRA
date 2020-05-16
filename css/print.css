@@ -1,0 +1,247 @@
+.print-top-bg {
+  background-color: #000000;
+}
+
+.breadcrumbs p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.printShop {
+  background-color: #333333;
+}
+.printShop h2 {
+  font-size: 56px;
+  letter-spacing: 1px;
+  line-height: 74px;
+  color: #ffffff;
+}
+
+.printShopArtist img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  margin-right: 10px;
+}
+.printShopArtist p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.printShopPrice {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #ffc608;
+}
+
+.printShopSelector p {
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 26px;
+  color: #ffc608;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.printShopSizes a {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #7d7d7d;
+  border: 1px solid #7d7d7d;
+  display: block;
+  padding: 5px 15px;
+}
+.printShopSizes a:hover {
+  color: #e1e1e1;
+  border: 1px solid #e1e1e1;
+  text-decoration: none;
+}
+
+.printShopBtn img {
+  padding-right: 20px;
+}
+.printShopBtn a {
+  background-color: #ffc608;
+  padding: 12px 38px;
+  display: inline-block;
+  color: #000000;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  border: 2px solid #ffc608;
+  width: 100%;
+  text-align: center;
+}
+.printShopBtn a:hover {
+  text-decoration: none;
+  color: #333333;
+  border: 2px solid #ffe9a1;
+}
+
+.printShopShips p {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.printAvaliab {
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 26px;
+  color: #ffc608;
+}
+
+.printOthers p {
+  color: #ffc608;
+}
+.printOthers p:first-child {
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+.printOthers p:nth-child(2) {
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+input[type="url"]::-webkit-input-placeholder {
+  color: #5d5d5d;
+}
+
+input[type="url"]:-ms-input-placeholder {
+  color: #5d5d5d;
+}
+
+input[type="url"]::-ms-input-placeholder {
+  color: #5d5d5d;
+}
+
+input[type="url"]::placeholder {
+  color: #5d5d5d;
+}
+
+.inputUrl input {
+  background-color: #171717;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22px;
+  color: #5d5d5d;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  width: 100%;
+  border: none;
+}
+
+.printReport p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  color: #969696;
+}
+
+.print-bg {
+  background-color: #464646;
+}
+
+.printPrint {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.printPosters h3 {
+  font-size: 79px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.printPosters img {
+  width: 1000px;
+}
+.printPosters p {
+  width: 1000px;
+}
+
+.printFeatures h4, .printFeatures h5 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+}
+.printFeatures p {
+  font-size: 33px;
+  color: #898989;
+}
+
+.print-bg-bottom {
+  background-color: #000000;
+}
