@@ -1,2 +1,99 @@
 @import "colors"
 @import "vars"
+
+.pay-bg
+  background-color: $payBg
+
+.pay1
+  p
+    font-size: 75px
+    font-weight: 700
+    background-color: $bg-orange
+    @include border-radius(15px)
+    margin: 10px 15px
+    padding: 0 15px
+
+.payTextBig
+  font-size: 25px
+  letter-spacing: 1px
+  line-height: 33px
+  color: $text-white
+
+.payTextSmall
+  font-size: 17px
+  letter-spacing: 0
+  line-height: 21px
+  color: $payTextGrey
+
+.pay3_left
+  background-color: $pay3_bg
+  @include border-radius(10px)
+
+  &_value
+    font-size: 25px
+    font-weight: 700
+    letter-spacing: 1px
+    line-height: 33px
+    color: $text-black
+    margin: 0
+    text-align: center
+    background-color: $bg-orange
+    @include border-radius(10px 10px 0 0)
+
+  &_one
+    font-weight: 700
+    &_top
+      padding-top: 35px
+
+  &_two
+    font-size: 40px
+    letter-spacing: 1px
+    line-height: 54px
+    color: $text-white
+
+    span
+      font-weight: 700
+
+  &_three
+    font-size: 26px
+    letter-spacing: 1px
+    line-height: 35px
+    color: $text-white
+
+  a
+    padding: 4px 38px
+    display: inline-block
+    background-color: $bg-orange
+    color: $text-white
+    @include border-radius(10px)
+    text-decoration: none
+    transition: all 0.2s
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 33px
+    border: 1px solid $pay3_bg
+    font-weight: 700
+    margin-top: 16px
+
+    &:hover
+      text-decoration: none
+      color: $pay3_bg
+      border: 1px solid $bg-orange
+
+.pay-titles
+  h2
+    font-size: 49px
+    font-weight: 700
+    letter-spacing: 1px
+    line-height: 66px
+    color: $text-white
+    span
+      font-weight: 400
+  p
+    font-size: 25px
+    letter-spacing: 1px
+    line-height: 33px
+    color: $payTextGrey
+
+.payTable-bg
+  background-color: $payBg

@@ -1630,6 +1630,120 @@ input[type="url"]::placeholder {
   background-color: #000000;
 }
 
+.pay-bg {
+  background-color: #000000;
+}
+
+.pay1 p {
+  font-size: 75px;
+  font-weight: 700;
+  background-color: #ffc608;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 10px 15px;
+  padding: 0 15px;
+}
+
+.payTextBig {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.payTextSmall {
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 21px;
+  color: #707070;
+}
+
+.pay3_left {
+  background-color: #464646;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.pay3_left_value {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  background-color: #ffc608;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+}
+.pay3_left_one {
+  font-weight: 700;
+}
+.pay3_left_one_top {
+  padding-top: 35px;
+}
+.pay3_left_two {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.pay3_left_two span {
+  font-weight: 700;
+}
+.pay3_left_three {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.pay3_left a {
+  padding: 4px 38px;
+  display: inline-block;
+  background-color: #ffc608;
+  color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  border: 1px solid #464646;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.pay3_left a:hover {
+  text-decoration: none;
+  color: #464646;
+  border: 1px solid #ffc608;
+}
+
+.pay-titles h2 {
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 66px;
+  color: #ffffff;
+}
+.pay-titles h2 span {
+  font-weight: 400;
+}
+.pay-titles p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  color: #707070;
+}
+
+.payTable-bg {
+  background-color: #000000;
+}
+
 .center {
   text-align: center;
 }
